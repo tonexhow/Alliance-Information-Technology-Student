@@ -1,0 +1,24 @@
+{
+  "name": "aits-capacitor-wrapper",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "sync:web": "node scripts/sync-web.mjs",
+    "android:init": "npm run sync:web && npx cap add android",
+    "android:sync": "npm run sync:web && npx cap sync android",
+    "android:open": "npx cap open android",
+    "ios:init": "npm run sync:web && npx cap add ios",
+    "ios:sync": "npm run sync:web && npx cap sync ios",
+    "ios:open": "npx cap open ios"
+  },
+  "dependencies": {
+    "@capacitor-community/sqlite": "^7.0.1",
+    "@capacitor/android": "^7.4.3",
+    "@capacitor/core": "^7.4.3",
+    "@capacitor/ios": "^7.4.3"
+  },
+  "devDependencies": {
+    "@capacitor/cli": "^7.4.3",
+    "typescript": "^5.9.3"
+  }
+}

@@ -1,0 +1,6158 @@
+{
+  "config": {
+    "organization": "Alliance of Information Technology Students",
+    "organizationShort": "AITS",
+    "questionsPerDivision": 5,
+    "generalQuestions": 5,
+    "reserveQuestionsPerCategory": 3,
+    "secondsPerCharacter": 2,
+    "secondsPerImage": 15,
+    "overallPassingPercent": 50,
+    "divisionPassingPercent": 50,
+    "feedbackSeconds": 5,
+    "timeoutRetrySeconds": 3,
+    "specificDivisionQuestions": 15
+  },
+  "departments": [
+    {
+      "id": "cite",
+      "name": "College of Information Technology Education",
+      "courses": [
+        {
+          "id": "bsit",
+          "name": "Bachelor of Science in Information Technology",
+          "yearLevels": [
+            "1st Year",
+            "2nd Year",
+            "3rd Year",
+            "4th Year"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "other",
+      "name": "Other / To be configured by AITS Management",
+      "courses": [],
+      "yearLevels": [
+        "1st Year",
+        "2nd Year",
+        "3rd Year",
+        "4th Year",
+        "5th Year"
+      ]
+    }
+  ],
+  "divisions": [
+    {
+      "id": "codehex",
+      "name": "CodeHex"
+    },
+    {
+      "id": "illustrados",
+      "name": "Illustrados"
+    },
+    {
+      "id": "neo-tech",
+      "name": "Neo-Tech"
+    }
+  ],
+  "questions": [
+    {
+      "id": 1,
+      "category": "codehex",
+      "question": "Which HTML element is intended for the main heading of a page?",
+      "image": null,
+      "correctAnswer": {
+        "text": "<h1>",
+        "image": null
+      },
+      "dummyAnswers": [
+        {
+          "text": "<head>",
+          "image": null
+        },
+        {
+          "text": "<main-title>",
+          "image": null
+        },
+        {
+          "text": "<p>",
+          "image": null
+        }
+      ],
+      "enabled": true,
+      "yearLevel": 2
+    },
+    {
+      "id": 2,
+      "category": "codehex",
+      "question": "Which CSS property changes the text color of an element?",
+      "image": null,
+      "correctAnswer": {
+        "text": "color",
+        "image": null
+      },
+      "dummyAnswers": [
+        {
+          "text": "background-color",
+          "image": null
+        },
+        {
+          "text": "font-style",
+          "image": null
+        },
+        {
+          "text": "display",
+          "image": null
+        }
+      ],
+      "enabled": true,
+      "yearLevel": 2
+    },
+    {
+      "id": 3,
+      "category": "codehex",
+      "question": "Which JavaScript keyword declares a block-scoped variable that can be reassigned?",
+      "image": null,
+      "correctAnswer": {
+        "text": "let",
+        "image": null
+      },
+      "dummyAnswers": [
+        {
+          "text": "const",
+          "image": null
+        },
+        {
+          "text": "static",
+          "image": null
+        },
+        {
+          "text": "define",
+          "image": null
+        }
+      ],
+      "enabled": true,
+      "yearLevel": 2
+    },
+    {
+      "id": 4,
+      "category": "codehex",
+      "question": "What does API commonly stand for in software development?",
+      "image": null,
+      "correctAnswer": {
+        "text": "Application Programming Interface",
+        "image": null
+      },
+      "dummyAnswers": [
+        {
+          "text": "Automated Program Installation",
+          "image": null
+        },
+        {
+          "text": "Application Process Integration",
+          "image": null
+        },
+        {
+          "text": "Advanced Programming Instruction",
+          "image": null
+        }
+      ],
+      "enabled": true,
+      "yearLevel": 1
+    },
+    {
+      "id": 5,
+      "category": "codehex",
+      "question": "Which HTTP method is normally used to retrieve a resource without changing it?",
+      "image": null,
+      "correctAnswer": {
+        "text": "GET",
+        "image": null
+      },
+      "dummyAnswers": [
+        {
+          "text": "POST",
+          "image": null
+        },
+        {
+          "text": "DELETE",
+          "image": null
+        },
+        {
+          "text": "PATCH",
+          "image": null
+        }
+      ],
+      "enabled": true,
+      "yearLevel": 1
+    },
+    {
+      "id": 6,
+      "category": "codehex",
+      "question": "Which data structure follows First In, First Out (FIFO)?",
+      "image": null,
+      "correctAnswer": {
+        "text": "Queue",
+        "image": null
+      },
+      "dummyAnswers": [
+        {
+          "text": "Stack",
+          "image": null
+        },
+        {
+          "text": "Tree",
+          "image": null
+        },
+        {
+          "text": "Set",
+          "image": null
+        }
+      ],
+      "enabled": true,
+      "yearLevel": 1
+    },
+    {
+      "id": 7,
+      "category": "codehex",
+      "question": "Which data structure follows Last In, First Out (LIFO)?",
+      "image": null,
+      "correctAnswer": {
+        "text": "Stack",
+        "image": null
+      },
+      "dummyAnswers": [
+        {
+          "text": "Queue",
+          "image": null
+        },
+        {
+          "text": "Graph",
+          "image": null
+        },
+        {
+          "text": "Array only",
+          "image": null
+        }
+      ],
+      "enabled": true,
+      "yearLevel": 1
+    },
+    {
+      "id": 8,
+      "category": "codehex",
+      "question": "What is the result of 5 % 2 in most programming languages?",
+      "image": null,
+      "correctAnswer": {
+        "text": "1",
+        "image": null
+      },
+      "dummyAnswers": [
+        {
+          "text": "2",
+          "image": null
+        },
+        {
+          "text": "2.5",
+          "image": null
+        },
+        {
+          "text": "0",
+          "image": null
+        }
+      ],
+      "enabled": true,
+      "yearLevel": 1
+    },
+    {
+      "id": 9,
+      "category": "codehex",
+      "question": "Which Git command creates a local copy of a remote repository?",
+      "image": null,
+      "correctAnswer": {
+        "text": "git clone",
+        "image": null
+      },
+      "dummyAnswers": [
+        {
+          "text": "git push",
+          "image": null
+        },
+        {
+          "text": "git merge",
+          "image": null
+        },
+        {
+          "text": "git branch",
+          "image": null
+        }
+      ],
+      "enabled": true,
+      "yearLevel": 1
+    },
+    {
+      "id": 10,
+      "category": "codehex",
+      "question": "What is the main purpose of a function in programming?",
+      "image": null,
+      "correctAnswer": {
+        "text": "Encapsulate reusable behavior",
+        "image": null
+      },
+      "dummyAnswers": [
+        {
+          "text": "Store only images",
+          "image": null
+        },
+        {
+          "text": "Replace all variables",
+          "image": null
+        },
+        {
+          "text": "Create network cables",
+          "image": null
+        }
+      ],
+      "enabled": true,
+      "yearLevel": 1
+    },
+    {
+      "id": 11,
+      "category": "codehex",
+      "question": "Which SQL statement is used to read rows from a table?",
+      "image": null,
+      "correctAnswer": {
+        "text": "SELECT",
+        "image": null
+      },
+      "dummyAnswers": [
+        {
+          "text": "INSERT",
+          "image": null
+        },
+        {
+          "text": "UPDATE",
+          "image": null
+        },
+        {
+          "text": "DROP",
+          "image": null
+        }
+      ],
+      "enabled": true,
+      "yearLevel": 3
+    },
+    {
+      "id": 12,
+      "category": "codehex",
+      "question": "What does a boolean value represent?",
+      "image": null,
+      "correctAnswer": {
+        "text": "True or false",
+        "image": null
+      },
+      "dummyAnswers": [
+        {
+          "text": "Only whole numbers",
+          "image": null
+        },
+        {
+          "text": "Text only",
+          "image": null
+        },
+        {
+          "text": "A file path",
+          "image": null
+        }
+      ],
+      "enabled": true,
+      "yearLevel": 1
+    },
+    {
+      "id": 13,
+      "category": "codehex",
+      "question": "Which operator is commonly used for strict equality in JavaScript?",
+      "image": null,
+      "correctAnswer": {
+        "text": "===",
+        "image": null
+      },
+      "dummyAnswers": [
+        {
+          "text": "=",
+          "image": null
+        },
+        {
+          "text": "=>",
+          "image": null
+        },
+        {
+          "text": "!=",
+          "image": null
+        }
+      ],
+      "enabled": true,
+      "yearLevel": 2
+    },
+    {
+      "id": 14,
+      "category": "codehex",
+      "question": "In object-oriented programming, what is encapsulation?",
+      "image": null,
+      "correctAnswer": {
+        "text": "Bundling data and behavior while controlling access",
+        "image": null
+      },
+      "dummyAnswers": [
+        {
+          "text": "Repeating code in every file",
+          "image": null
+        },
+        {
+          "text": "Connecting computers physically",
+          "image": null
+        },
+        {
+          "text": "Deleting all object methods",
+          "image": null
+        }
+      ],
+      "enabled": true,
+      "yearLevel": 1
+    },
+    {
+      "id": 15,
+      "category": "codehex",
+      "question": "Which sorting algorithm repeatedly compares adjacent items and swaps them when needed?",
+      "image": null,
+      "correctAnswer": {
+        "text": "Bubble sort",
+        "image": null
+      },
+      "dummyAnswers": [
+        {
+          "text": "Binary search",
+          "image": null
+        },
+        {
+          "text": "Breadth-first search",
+          "image": null
+        },
+        {
+          "text": "Hashing",
+          "image": null
+        }
+      ],
+      "enabled": true,
+      "yearLevel": 1
+    },
+    {
+      "id": 16,
+      "category": "codehex",
+      "question": "What is recursion?",
+      "image": null,
+      "correctAnswer": {
+        "text": "A function solving a problem by calling itself on smaller cases",
+        "image": null
+      },
+      "dummyAnswers": [
+        {
+          "text": "A database backup",
+          "image": null
+        },
+        {
+          "text": "A CSS animation",
+          "image": null
+        },
+        {
+          "text": "A network broadcast",
+          "image": null
+        }
+      ],
+      "enabled": true,
+      "yearLevel": 1
+    },
+    {
+      "id": 17,
+      "category": "codehex",
+      "question": "Which status code commonly means an HTTP request succeeded?",
+      "image": null,
+      "correctAnswer": {
+        "text": "200",
+        "image": null
+      },
+      "dummyAnswers": [
+        {
+          "text": "404",
+          "image": null
+        },
+        {
+          "text": "500",
+          "image": null
+        },
+        {
+          "text": "301",
+          "image": null
+        }
+      ],
+      "enabled": true,
+      "yearLevel": 1
+    },
+    {
+      "id": 18,
+      "category": "codehex",
+      "question": "Which HTTP status code commonly means a resource was not found?",
+      "image": null,
+      "correctAnswer": {
+        "text": "404",
+        "image": null
+      },
+      "dummyAnswers": [
+        {
+          "text": "201",
+          "image": null
+        },
+        {
+          "text": "200",
+          "image": null
+        },
+        {
+          "text": "101",
+          "image": null
+        }
+      ],
+      "enabled": true,
+      "yearLevel": 1
+    },
+    {
+      "id": 19,
+      "category": "codehex",
+      "question": "What is JSON primarily used for?",
+      "image": null,
+      "correctAnswer": {
+        "text": "Representing and exchanging structured data",
+        "image": null
+      },
+      "dummyAnswers": [
+        {
+          "text": "Compiling operating systems",
+          "image": null
+        },
+        {
+          "text": "Drawing vector graphics only",
+          "image": null
+        },
+        {
+          "text": "Encrypting passwords automatically",
+          "image": null
+        }
+      ],
+      "enabled": true,
+      "yearLevel": 2
+    },
+    {
+      "id": 20,
+      "category": "codehex",
+      "question": "Which JavaScript array method creates a new array by transforming every element?",
+      "image": null,
+      "correctAnswer": {
+        "text": "map()",
+        "image": null
+      },
+      "dummyAnswers": [
+        {
+          "text": "push()",
+          "image": null
+        },
+        {
+          "text": "pop()",
+          "image": null
+        },
+        {
+          "text": "shift()",
+          "image": null
+        }
+      ],
+      "enabled": true,
+      "yearLevel": 2
+    },
+    {
+      "id": 21,
+      "category": "codehex",
+      "question": "Which principle suggests a function or module should have one focused responsibility?",
+      "image": null,
+      "correctAnswer": {
+        "text": "Single Responsibility Principle",
+        "image": null
+      },
+      "dummyAnswers": [
+        {
+          "text": "Random Access Principle",
+          "image": null
+        },
+        {
+          "text": "Infinite Loop Principle",
+          "image": null
+        },
+        {
+          "text": "Global Variable Principle",
+          "image": null
+        }
+      ],
+      "enabled": true,
+      "yearLevel": 2
+    },
+    {
+      "id": 22,
+      "category": "codehex",
+      "question": "What is a primary benefit of using version control?",
+      "image": null,
+      "correctAnswer": {
+        "text": "Tracking and coordinating changes to source code",
+        "image": null
+      },
+      "dummyAnswers": [
+        {
+          "text": "Making internet speed faster",
+          "image": null
+        },
+        {
+          "text": "Replacing testing",
+          "image": null
+        },
+        {
+          "text": "Removing the need for backups",
+          "image": null
+        }
+      ],
+      "enabled": true,
+      "yearLevel": 2
+    },
+    {
+      "id": 23,
+      "category": "codehex",
+      "question": "Which database concept uniquely identifies a row in a table?",
+      "image": null,
+      "correctAnswer": {
+        "text": "Primary key",
+        "image": null
+      },
+      "dummyAnswers": [
+        {
+          "text": "CSS selector",
+          "image": null
+        },
+        {
+          "text": "Loop counter",
+          "image": null
+        },
+        {
+          "text": "HTTP header",
+          "image": null
+        }
+      ],
+      "enabled": true,
+      "yearLevel": 2
+    },
+    {
+      "id": 24,
+      "category": "codehex",
+      "question": "What is parameterized SQL mainly used to help prevent?",
+      "image": null,
+      "correctAnswer": {
+        "text": "SQL injection",
+        "image": null
+      },
+      "dummyAnswers": [
+        {
+          "text": "Screen tearing",
+          "image": null
+        },
+        {
+          "text": "Packet loss",
+          "image": null
+        },
+        {
+          "text": "CSS overflow",
+          "image": null
+        }
+      ],
+      "enabled": true,
+      "yearLevel": 3
+    },
+    {
+      "id": 25,
+      "category": "codehex",
+      "question": "Which algorithmic notation commonly describes an operation whose time grows linearly with input size?",
+      "image": null,
+      "correctAnswer": {
+        "text": "O(n)",
+        "image": null
+      },
+      "dummyAnswers": [
+        {
+          "text": "O(1)",
+          "image": null
+        },
+        {
+          "text": "O(log n)",
+          "image": null
+        },
+        {
+          "text": "O(n²) only",
+          "image": null
+        }
+      ],
+      "enabled": true,
+      "yearLevel": 3
+    },
+    {
+      "id": 26,
+      "category": "codehex",
+      "question": "Which loop is useful when the number of repetitions is known or enumerable?",
+      "image": null,
+      "correctAnswer": {
+        "text": "for loop",
+        "image": null
+      },
+      "dummyAnswers": [
+        {
+          "text": "switch statement",
+          "image": null
+        },
+        {
+          "text": "class declaration",
+          "image": null
+        },
+        {
+          "text": "import statement",
+          "image": null
+        }
+      ],
+      "enabled": true,
+      "yearLevel": 3
+    },
+    {
+      "id": 27,
+      "category": "codehex",
+      "question": "What is debugging?",
+      "image": null,
+      "correctAnswer": {
+        "text": "Finding and correcting defects in software",
+        "image": null
+      },
+      "dummyAnswers": [
+        {
+          "text": "Publishing code without testing",
+          "image": null
+        },
+        {
+          "text": "Designing a logo",
+          "image": null
+        },
+        {
+          "text": "Compressing a video",
+          "image": null
+        }
+      ],
+      "enabled": true,
+      "yearLevel": 3
+    },
+    {
+      "id": 28,
+      "category": "codehex",
+      "question": "What does REST commonly use to identify resources?",
+      "image": null,
+      "correctAnswer": {
+        "text": "URLs/URIs",
+        "image": null
+      },
+      "dummyAnswers": [
+        {
+          "text": "Monitor resolution",
+          "image": null
+        },
+        {
+          "text": "File extensions only",
+          "image": null
+        },
+        {
+          "text": "Keyboard shortcuts",
+          "image": null
+        }
+      ],
+      "enabled": true,
+      "yearLevel": 4
+    },
+    {
+      "id": 29,
+      "category": "codehex",
+      "question": "In TypeScript, what is the main purpose of type annotations?",
+      "image": null,
+      "correctAnswer": {
+        "text": "Describe expected data types and catch mismatches earlier",
+        "image": null
+      },
+      "dummyAnswers": [
+        {
+          "text": "Increase monitor brightness",
+          "image": null
+        },
+        {
+          "text": "Replace HTTP",
+          "image": null
+        },
+        {
+          "text": "Automatically host the app",
+          "image": null
+        }
+      ],
+      "enabled": true,
+      "yearLevel": 4
+    },
+    {
+      "id": 30,
+      "category": "codehex",
+      "question": "Why should passwords be stored as strong salted hashes instead of plain text?",
+      "image": null,
+      "correctAnswer": {
+        "text": "To reduce exposure if the credential database is compromised",
+        "image": null
+      },
+      "dummyAnswers": [
+        {
+          "text": "To make passwords shorter",
+          "image": null
+        },
+        {
+          "text": "To make CSS load faster",
+          "image": null
+        },
+        {
+          "text": "To allow anyone to read them",
+          "image": null
+        }
+      ],
+      "enabled": true,
+      "yearLevel": 4
+    },
+    {
+      "id": 31,
+      "category": "illustrados",
+      "question": "Which design principle helps create a clear difference between important and secondary elements?",
+      "image": null,
+      "correctAnswer": {
+        "text": "Contrast",
+        "image": null
+      },
+      "dummyAnswers": [
+        {
+          "text": "Compression",
+          "image": null
+        },
+        {
+          "text": "Compilation",
+          "image": null
+        },
+        {
+          "text": "Encryption",
+          "image": null
+        }
+      ],
+      "enabled": true,
+      "yearLevel": 1
+    },
+    {
+      "id": 32,
+      "category": "illustrados",
+      "question": "What does UI stand for?",
+      "image": null,
+      "correctAnswer": {
+        "text": "User Interface",
+        "image": null
+      },
+      "dummyAnswers": [
+        {
+          "text": "Universal Internet",
+          "image": null
+        },
+        {
+          "text": "User Installation",
+          "image": null
+        },
+        {
+          "text": "Unified Index",
+          "image": null
+        }
+      ],
+      "enabled": true,
+      "yearLevel": 1
+    },
+    {
+      "id": 33,
+      "category": "illustrados",
+      "question": "What does UX primarily focus on?",
+      "image": null,
+      "correctAnswer": {
+        "text": "The overall experience of using a product",
+        "image": null
+      },
+      "dummyAnswers": [
+        {
+          "text": "Only the logo file format",
+          "image": null
+        },
+        {
+          "text": "Only server response codes",
+          "image": null
+        },
+        {
+          "text": "Only database storage",
+          "image": null
+        }
+      ],
+      "enabled": true,
+      "yearLevel": 1
+    },
+    {
+      "id": 34,
+      "category": "illustrados",
+      "question": "Which color model is commonly used for digital screens?",
+      "image": null,
+      "correctAnswer": {
+        "text": "RGB",
+        "image": null
+      },
+      "dummyAnswers": [
+        {
+          "text": "CMYK only",
+          "image": null
+        },
+        {
+          "text": "Pantone print only",
+          "image": null
+        },
+        {
+          "text": "ASCII",
+          "image": null
+        }
+      ],
+      "enabled": true,
+      "yearLevel": 1
+    },
+    {
+      "id": 35,
+      "category": "illustrados",
+      "question": "Which color model is commonly associated with four-color printing?",
+      "image": null,
+      "correctAnswer": {
+        "text": "CMYK",
+        "image": null
+      },
+      "dummyAnswers": [
+        {
+          "text": "RGB",
+          "image": null
+        },
+        {
+          "text": "HSL only",
+          "image": null
+        },
+        {
+          "text": "Binary",
+          "image": null
+        }
+      ],
+      "enabled": true,
+      "yearLevel": 1
+    },
+    {
+      "id": 36,
+      "category": "illustrados",
+      "question": "What is whitespace in visual design?",
+      "image": null,
+      "correctAnswer": {
+        "text": "Intentional empty space around elements",
+        "image": null
+      },
+      "dummyAnswers": [
+        {
+          "text": "A broken image",
+          "image": null
+        },
+        {
+          "text": "Only a white background",
+          "image": null
+        },
+        {
+          "text": "Unused source code",
+          "image": null
+        }
+      ],
+      "enabled": true,
+      "yearLevel": 1
+    },
+    {
+      "id": 37,
+      "category": "illustrados",
+      "question": "Which file format is vector-based and useful for scalable web icons?",
+      "image": null,
+      "correctAnswer": {
+        "text": "SVG",
+        "image": null
+      },
+      "dummyAnswers": [
+        {
+          "text": "JPEG",
+          "image": null
+        },
+        {
+          "text": "MP3",
+          "image": null
+        },
+        {
+          "text": "TXT",
+          "image": null
+        }
+      ],
+      "enabled": true,
+      "yearLevel": 1
+    },
+    {
+      "id": 38,
+      "category": "illustrados",
+      "question": "Which image format is commonly useful for photographs with lossy compression?",
+      "image": null,
+      "correctAnswer": {
+        "text": "JPEG",
+        "image": null
+      },
+      "dummyAnswers": [
+        {
+          "text": "SVG only",
+          "image": null
+        },
+        {
+          "text": "WAV",
+          "image": null
+        },
+        {
+          "text": "CSV",
+          "image": null
+        }
+      ],
+      "enabled": true,
+      "yearLevel": 1
+    },
+    {
+      "id": 39,
+      "category": "illustrados",
+      "question": "What is visual hierarchy?",
+      "image": null,
+      "correctAnswer": {
+        "text": "Arranging elements so importance is understood quickly",
+        "image": null
+      },
+      "dummyAnswers": [
+        {
+          "text": "Sorting source files alphabetically",
+          "image": null
+        },
+        {
+          "text": "Increasing every font size",
+          "image": null
+        },
+        {
+          "text": "Using only one color",
+          "image": null
+        }
+      ],
+      "enabled": true,
+      "yearLevel": 1
+    },
+    {
+      "id": 40,
+      "category": "illustrados",
+      "question": "What is a wireframe?",
+      "image": null,
+      "correctAnswer": {
+        "text": "A low-detail structural layout of an interface",
+        "image": null
+      },
+      "dummyAnswers": [
+        {
+          "text": "A finished database",
+          "image": null
+        },
+        {
+          "text": "A network topology cable",
+          "image": null
+        },
+        {
+          "text": "A compiled application",
+          "image": null
+        }
+      ],
+      "enabled": true,
+      "yearLevel": 1
+    },
+    {
+      "id": 41,
+      "category": "illustrados",
+      "question": "What is a prototype in UI/UX work?",
+      "image": null,
+      "correctAnswer": {
+        "text": "An interactive or representative model used to test ideas",
+        "image": null
+      },
+      "dummyAnswers": [
+        {
+          "text": "A permanent production database",
+          "image": null
+        },
+        {
+          "text": "A password hash",
+          "image": null
+        },
+        {
+          "text": "A network firewall",
+          "image": null
+        }
+      ],
+      "enabled": true,
+      "yearLevel": 1
+    },
+    {
+      "id": 42,
+      "category": "illustrados",
+      "question": "Which typography property describes the vertical space between lines of text?",
+      "image": null,
+      "correctAnswer": {
+        "text": "Line height",
+        "image": null
+      },
+      "dummyAnswers": [
+        {
+          "text": "Kerning only",
+          "image": null
+        },
+        {
+          "text": "Opacity",
+          "image": null
+        },
+        {
+          "text": "Border radius",
+          "image": null
+        }
+      ],
+      "enabled": true,
+      "yearLevel": 1
+    },
+    {
+      "id": 43,
+      "category": "illustrados",
+      "question": "What does kerning adjust?",
+      "image": null,
+      "correctAnswer": {
+        "text": "Spacing between particular pairs of characters",
+        "image": null
+      },
+      "dummyAnswers": [
+        {
+          "text": "Page loading speed",
+          "image": null
+        },
+        {
+          "text": "Video bitrate",
+          "image": null
+        },
+        {
+          "text": "Database joins",
+          "image": null
+        }
+      ],
+      "enabled": true,
+      "yearLevel": 1
+    },
+    {
+      "id": 44,
+      "category": "illustrados",
+      "question": "What is responsive design?",
+      "image": null,
+      "correctAnswer": {
+        "text": "Adapting a layout to different screen sizes and conditions",
+        "image": null
+      },
+      "dummyAnswers": [
+        {
+          "text": "Using only desktop dimensions",
+          "image": null
+        },
+        {
+          "text": "Making every image square",
+          "image": null
+        },
+        {
+          "text": "Storing CSS in a database",
+          "image": null
+        }
+      ],
+      "enabled": true,
+      "yearLevel": 1
+    },
+    {
+      "id": 45,
+      "category": "illustrados",
+      "question": "Why is consistent spacing important in an interface?",
+      "image": null,
+      "correctAnswer": {
+        "text": "It improves rhythm, grouping, and readability",
+        "image": null
+      },
+      "dummyAnswers": [
+        {
+          "text": "It increases CPU clock speed",
+          "image": null
+        },
+        {
+          "text": "It replaces accessibility",
+          "image": null
+        },
+        {
+          "text": "It prevents all network errors",
+          "image": null
+        }
+      ],
+      "enabled": true,
+      "yearLevel": 1
+    },
+    {
+      "id": 46,
+      "category": "illustrados",
+      "question": "Which principle groups related items close together?",
+      "image": null,
+      "correctAnswer": {
+        "text": "Proximity",
+        "image": null
+      },
+      "dummyAnswers": [
+        {
+          "text": "Packet switching",
+          "image": null
+        },
+        {
+          "text": "Inheritance",
+          "image": null
+        },
+        {
+          "text": "Normalization",
+          "image": null
+        }
+      ],
+      "enabled": true,
+      "yearLevel": 1
+    },
+    {
+      "id": 47,
+      "category": "illustrados",
+      "question": "What is a design system?",
+      "image": null,
+      "correctAnswer": {
+        "text": "A reusable collection of visual rules, components, and patterns",
+        "image": null
+      },
+      "dummyAnswers": [
+        {
+          "text": "A hardware operating system",
+          "image": null
+        },
+        {
+          "text": "A database query",
+          "image": null
+        },
+        {
+          "text": "A file compression method",
+          "image": null
+        }
+      ],
+      "enabled": true,
+      "yearLevel": 1
+    },
+    {
+      "id": 48,
+      "category": "illustrados",
+      "question": "What is accessibility contrast intended to improve?",
+      "image": null,
+      "correctAnswer": {
+        "text": "Readability and distinguishability of content",
+        "image": null
+      },
+      "dummyAnswers": [
+        {
+          "text": "Database concurrency",
+          "image": null
+        },
+        {
+          "text": "Audio volume only",
+          "image": null
+        },
+        {
+          "text": "Network latency",
+          "image": null
+        }
+      ],
+      "enabled": true,
+      "yearLevel": 1
+    },
+    {
+      "id": 49,
+      "category": "illustrados",
+      "question": "Why should important controls have visible focus states?",
+      "image": null,
+      "correctAnswer": {
+        "text": "To support keyboard navigation and accessibility",
+        "image": null
+      },
+      "dummyAnswers": [
+        {
+          "text": "To hide buttons",
+          "image": null
+        },
+        {
+          "text": "To reduce storage",
+          "image": null
+        },
+        {
+          "text": "To prevent OAuth",
+          "image": null
+        }
+      ],
+      "enabled": true,
+      "yearLevel": 2
+    },
+    {
+      "id": 50,
+      "category": "illustrados",
+      "question": "Which image property is most important for preserving proportions when resizing?",
+      "image": null,
+      "correctAnswer": {
+        "text": "Aspect ratio",
+        "image": null
+      },
+      "dummyAnswers": [
+        {
+          "text": "IP address",
+          "image": null
+        },
+        {
+          "text": "SQL index",
+          "image": null
+        },
+        {
+          "text": "Frame pointer",
+          "image": null
+        }
+      ],
+      "enabled": true,
+      "yearLevel": 2
+    },
+    {
+      "id": 51,
+      "category": "illustrados",
+      "question": "What is a mood board used for?",
+      "image": null,
+      "correctAnswer": {
+        "text": "Collecting visual references that communicate a design direction",
+        "image": null
+      },
+      "dummyAnswers": [
+        {
+          "text": "Running unit tests",
+          "image": null
+        },
+        {
+          "text": "Routing packets",
+          "image": null
+        },
+        {
+          "text": "Encrypting messages",
+          "image": null
+        }
+      ],
+      "enabled": true,
+      "yearLevel": 2
+    },
+    {
+      "id": 52,
+      "category": "illustrados",
+      "question": "What is a brand palette?",
+      "image": null,
+      "correctAnswer": {
+        "text": "A defined set of colors used consistently for identity",
+        "image": null
+      },
+      "dummyAnswers": [
+        {
+          "text": "A list of database tables",
+          "image": null
+        },
+        {
+          "text": "A JavaScript package manager",
+          "image": null
+        },
+        {
+          "text": "A router configuration",
+          "image": null
+        }
+      ],
+      "enabled": true,
+      "yearLevel": 2
+    },
+    {
+      "id": 53,
+      "category": "illustrados",
+      "question": "What does a grid help designers maintain?",
+      "image": null,
+      "correctAnswer": {
+        "text": "Alignment and consistent structure",
+        "image": null
+      },
+      "dummyAnswers": [
+        {
+          "text": "Random placement",
+          "image": null
+        },
+        {
+          "text": "Network authentication",
+          "image": null
+        },
+        {
+          "text": "Password recovery",
+          "image": null
+        }
+      ],
+      "enabled": true,
+      "yearLevel": 2
+    },
+    {
+      "id": 54,
+      "category": "illustrados",
+      "question": "What is the purpose of an icon label or tooltip when an icon may be unclear?",
+      "image": null,
+      "correctAnswer": {
+        "text": "Provide meaning and reduce ambiguity",
+        "image": null
+      },
+      "dummyAnswers": [
+        {
+          "text": "Increase file size",
+          "image": null
+        },
+        {
+          "text": "Hide navigation",
+          "image": null
+        },
+        {
+          "text": "Replace all text",
+          "image": null
+        }
+      ],
+      "enabled": true,
+      "yearLevel": 3
+    },
+    {
+      "id": 55,
+      "category": "illustrados",
+      "question": "Why are very long lines of body text harder to read?",
+      "image": null,
+      "correctAnswer": {
+        "text": "The eye has more difficulty tracking from one line to the next",
+        "image": null
+      },
+      "dummyAnswers": [
+        {
+          "text": "They disable CSS",
+          "image": null
+        },
+        {
+          "text": "They prevent image loading",
+          "image": null
+        },
+        {
+          "text": "They create SQL errors",
+          "image": null
+        }
+      ],
+      "enabled": true,
+      "yearLevel": 3
+    },
+    {
+      "id": 56,
+      "category": "illustrados",
+      "question": "Which animation approach is generally best for interface feedback?",
+      "image": null,
+      "correctAnswer": {
+        "text": "Short, purposeful motion that clarifies a state change",
+        "image": null
+      },
+      "dummyAnswers": [
+        {
+          "text": "Continuous heavy animation everywhere",
+          "image": null
+        },
+        {
+          "text": "Random movement",
+          "image": null
+        },
+        {
+          "text": "No state feedback at all",
+          "image": null
+        }
+      ],
+      "enabled": true,
+      "yearLevel": 3
+    },
+    {
+      "id": 57,
+      "category": "illustrados",
+      "question": "What is the purpose of a modal dialog?",
+      "image": null,
+      "correctAnswer": {
+        "text": "Focus attention on a temporary task or important decision",
+        "image": null
+      },
+      "dummyAnswers": [
+        {
+          "text": "Replace the operating system",
+          "image": null
+        },
+        {
+          "text": "Store source code",
+          "image": null
+        },
+        {
+          "text": "Broadcast Wi-Fi",
+          "image": null
+        }
+      ],
+      "enabled": true,
+      "yearLevel": 3
+    },
+    {
+      "id": 58,
+      "category": "illustrados",
+      "question": "What should a destructive action normally include?",
+      "image": null,
+      "correctAnswer": {
+        "text": "Clear warning and confirmation when appropriate",
+        "image": null
+      },
+      "dummyAnswers": [
+        {
+          "text": "Hidden text",
+          "image": null
+        },
+        {
+          "text": "Automatic execution on hover",
+          "image": null
+        },
+        {
+          "text": "No label",
+          "image": null
+        }
+      ],
+      "enabled": true,
+      "yearLevel": 4
+    },
+    {
+      "id": 59,
+      "category": "illustrados",
+      "question": "Why should a mobile interface use adequately sized touch targets?",
+      "image": null,
+      "correctAnswer": {
+        "text": "To make controls easier and more accurate to tap",
+        "image": null
+      },
+      "dummyAnswers": [
+        {
+          "text": "To increase SQL capacity",
+          "image": null
+        },
+        {
+          "text": "To hide content",
+          "image": null
+        },
+        {
+          "text": "To disable scrolling",
+          "image": null
+        }
+      ],
+      "enabled": true,
+      "yearLevel": 4
+    },
+    {
+      "id": 60,
+      "category": "illustrados",
+      "question": "What is the main advantage of using reusable UI components?",
+      "image": null,
+      "correctAnswer": {
+        "text": "Consistency and easier maintenance across screens",
+        "image": null
+      },
+      "dummyAnswers": [
+        {
+          "text": "Every screen becomes unrelated",
+          "image": null
+        },
+        {
+          "text": "It removes the need for content",
+          "image": null
+        },
+        {
+          "text": "It guarantees zero bugs",
+          "image": null
+        }
+      ],
+      "enabled": true,
+      "yearLevel": 4
+    },
+    {
+      "id": 61,
+      "category": "neo-tech",
+      "question": "What does LAN stand for?",
+      "image": null,
+      "correctAnswer": {
+        "text": "Local Area Network",
+        "image": null
+      },
+      "dummyAnswers": [
+        {
+          "text": "Long Access Node",
+          "image": null
+        },
+        {
+          "text": "Linked Application Network",
+          "image": null
+        },
+        {
+          "text": "Local Analog Number",
+          "image": null
+        }
+      ],
+      "enabled": true,
+      "yearLevel": 1
+    },
+    {
+      "id": 62,
+      "category": "neo-tech",
+      "question": "Which device primarily forwards packets between different IP networks?",
+      "image": null,
+      "correctAnswer": {
+        "text": "Router",
+        "image": null
+      },
+      "dummyAnswers": [
+        {
+          "text": "Keyboard",
+          "image": null
+        },
+        {
+          "text": "Printer",
+          "image": null
+        },
+        {
+          "text": "Monitor",
+          "image": null
+        }
+      ],
+      "enabled": true,
+      "yearLevel": 1
+    },
+    {
+      "id": 63,
+      "category": "neo-tech",
+      "question": "Which device commonly connects multiple devices within the same Ethernet LAN?",
+      "image": null,
+      "correctAnswer": {
+        "text": "Switch",
+        "image": null
+      },
+      "dummyAnswers": [
+        {
+          "text": "Projector",
+          "image": null
+        },
+        {
+          "text": "Scanner",
+          "image": null
+        },
+        {
+          "text": "Speaker",
+          "image": null
+        }
+      ],
+      "enabled": true,
+      "yearLevel": 1
+    },
+    {
+      "id": 64,
+      "category": "neo-tech",
+      "question": "What does IP stand for in networking?",
+      "image": null,
+      "correctAnswer": {
+        "text": "Internet Protocol",
+        "image": null
+      },
+      "dummyAnswers": [
+        {
+          "text": "Internal Program",
+          "image": null
+        },
+        {
+          "text": "Interface Port",
+          "image": null
+        },
+        {
+          "text": "Internet Process",
+          "image": null
+        }
+      ],
+      "enabled": true,
+      "yearLevel": 1
+    },
+    {
+      "id": 65,
+      "category": "neo-tech",
+      "question": "Which protocol automatically assigns IP configuration to many network clients?",
+      "image": null,
+      "correctAnswer": {
+        "text": "DHCP",
+        "image": null
+      },
+      "dummyAnswers": [
+        {
+          "text": "HTML",
+          "image": null
+        },
+        {
+          "text": "SMTP only",
+          "image": null
+        },
+        {
+          "text": "JPEG",
+          "image": null
+        }
+      ],
+      "enabled": true,
+      "yearLevel": 1
+    },
+    {
+      "id": 66,
+      "category": "neo-tech",
+      "question": "What does DNS primarily do?",
+      "image": null,
+      "correctAnswer": {
+        "text": "Maps domain names to network addresses",
+        "image": null
+      },
+      "dummyAnswers": [
+        {
+          "text": "Encrypts every file",
+          "image": null
+        },
+        {
+          "text": "Measures CPU temperature",
+          "image": null
+        },
+        {
+          "text": "Compiles JavaScript",
+          "image": null
+        }
+      ],
+      "enabled": true,
+      "yearLevel": 1
+    },
+    {
+      "id": 67,
+      "category": "neo-tech",
+      "question": "Which protocol is normally used to securely browse websites?",
+      "image": null,
+      "correctAnswer": {
+        "text": "HTTPS",
+        "image": null
+      },
+      "dummyAnswers": [
+        {
+          "text": "FTP only",
+          "image": null
+        },
+        {
+          "text": "Telnet",
+          "image": null
+        },
+        {
+          "text": "ARP only",
+          "image": null
+        }
+      ],
+      "enabled": true,
+      "yearLevel": 1
+    },
+    {
+      "id": 68,
+      "category": "neo-tech",
+      "question": "What is the loopback IPv4 address commonly used for the local machine?",
+      "image": null,
+      "correctAnswer": {
+        "text": "127.0.0.1",
+        "image": null
+      },
+      "dummyAnswers": [
+        {
+          "text": "255.255.255.255",
+          "image": null
+        },
+        {
+          "text": "8.8.8.8",
+          "image": null
+        },
+        {
+          "text": "192.0.2.1",
+          "image": null
+        }
+      ],
+      "enabled": true,
+      "yearLevel": 1
+    },
+    {
+      "id": 69,
+      "category": "neo-tech",
+      "question": "Which connector is commonly used for wired Ethernet networks?",
+      "image": null,
+      "correctAnswer": {
+        "text": "RJ45",
+        "image": null
+      },
+      "dummyAnswers": [
+        {
+          "text": "3.5 mm audio jack",
+          "image": null
+        },
+        {
+          "text": "VGA only",
+          "image": null
+        },
+        {
+          "text": "PS/2 mouse plug",
+          "image": null
+        }
+      ],
+      "enabled": true,
+      "yearLevel": 1
+    },
+    {
+      "id": 70,
+      "category": "neo-tech",
+      "question": "What does Wi-Fi allow devices to do?",
+      "image": null,
+      "correctAnswer": {
+        "text": "Connect to a local network wirelessly",
+        "image": null
+      },
+      "dummyAnswers": [
+        {
+          "text": "Increase disk capacity automatically",
+          "image": null
+        },
+        {
+          "text": "Compile code",
+          "image": null
+        },
+        {
+          "text": "Print without any network",
+          "image": null
+        }
+      ],
+      "enabled": true,
+      "yearLevel": 1
+    },
+    {
+      "id": 71,
+      "category": "neo-tech",
+      "question": "What is latency?",
+      "image": null,
+      "correctAnswer": {
+        "text": "Delay between sending data and receiving a response",
+        "image": null
+      },
+      "dummyAnswers": [
+        {
+          "text": "Total disk size",
+          "image": null
+        },
+        {
+          "text": "Screen brightness",
+          "image": null
+        },
+        {
+          "text": "File ownership",
+          "image": null
+        }
+      ],
+      "enabled": true,
+      "yearLevel": 1
+    },
+    {
+      "id": 72,
+      "category": "neo-tech",
+      "question": "What is bandwidth?",
+      "image": null,
+      "correctAnswer": {
+        "text": "The capacity of a connection to carry data over time",
+        "image": null
+      },
+      "dummyAnswers": [
+        {
+          "text": "A password length",
+          "image": null
+        },
+        {
+          "text": "CPU instruction count",
+          "image": null
+        },
+        {
+          "text": "Monitor width",
+          "image": null
+        }
+      ],
+      "enabled": true,
+      "yearLevel": 1
+    },
+    {
+      "id": 73,
+      "category": "neo-tech",
+      "question": "What does a firewall primarily do?",
+      "image": null,
+      "correctAnswer": {
+        "text": "Controls network traffic according to security rules",
+        "image": null
+      },
+      "dummyAnswers": [
+        {
+          "text": "Edits photos",
+          "image": null
+        },
+        {
+          "text": "Creates spreadsheets",
+          "image": null
+        },
+        {
+          "text": "Charges batteries",
+          "image": null
+        }
+      ],
+      "enabled": true,
+      "yearLevel": 1
+    },
+    {
+      "id": 74,
+      "category": "neo-tech",
+      "question": "Which network layer technology uses MAC addresses for local Ethernet forwarding?",
+      "image": null,
+      "correctAnswer": {
+        "text": "Data Link layer",
+        "image": null
+      },
+      "dummyAnswers": [
+        {
+          "text": "Application text editor",
+          "image": null
+        },
+        {
+          "text": "Database schema",
+          "image": null
+        },
+        {
+          "text": "Presentation slide",
+          "image": null
+        }
+      ],
+      "enabled": true,
+      "yearLevel": 1
+    },
+    {
+      "id": 75,
+      "category": "neo-tech",
+      "question": "What does MAC address identify?",
+      "image": null,
+      "correctAnswer": {
+        "text": "A network interface at the link layer",
+        "image": null
+      },
+      "dummyAnswers": [
+        {
+          "text": "A user's password",
+          "image": null
+        },
+        {
+          "text": "A website title",
+          "image": null
+        },
+        {
+          "text": "A database row only",
+          "image": null
+        }
+      ],
+      "enabled": true,
+      "yearLevel": 1
+    },
+    {
+      "id": 76,
+      "category": "neo-tech",
+      "question": "What is a subnet mask used for?",
+      "image": null,
+      "correctAnswer": {
+        "text": "Determine which part of an IP address represents the network",
+        "image": null
+      },
+      "dummyAnswers": [
+        {
+          "text": "Resize images",
+          "image": null
+        },
+        {
+          "text": "Hash passwords",
+          "image": null
+        },
+        {
+          "text": "Compile CSS",
+          "image": null
+        }
+      ],
+      "enabled": true,
+      "yearLevel": 1
+    },
+    {
+      "id": 77,
+      "category": "neo-tech",
+      "question": "What is packet loss?",
+      "image": null,
+      "correctAnswer": {
+        "text": "Data packets failing to reach their destination",
+        "image": null
+      },
+      "dummyAnswers": [
+        {
+          "text": "Extra storage appearing on disk",
+          "image": null
+        },
+        {
+          "text": "A larger font",
+          "image": null
+        },
+        {
+          "text": "A successful backup",
+          "image": null
+        }
+      ],
+      "enabled": true,
+      "yearLevel": 1
+    },
+    {
+      "id": 78,
+      "category": "neo-tech",
+      "question": "What is a UPS useful for in an office server setup?",
+      "image": null,
+      "correctAnswer": {
+        "text": "Providing temporary power during an outage",
+        "image": null
+      },
+      "dummyAnswers": [
+        {
+          "text": "Increasing internet plan speed",
+          "image": null
+        },
+        {
+          "text": "Replacing a router permanently",
+          "image": null
+        },
+        {
+          "text": "Creating OAuth credentials",
+          "image": null
+        }
+      ],
+      "enabled": true,
+      "yearLevel": 1
+    },
+    {
+      "id": 79,
+      "category": "neo-tech",
+      "question": "What does SSD stand for?",
+      "image": null,
+      "correctAnswer": {
+        "text": "Solid-State Drive",
+        "image": null
+      },
+      "dummyAnswers": [
+        {
+          "text": "Secure System Domain",
+          "image": null
+        },
+        {
+          "text": "Serial Storage Display",
+          "image": null
+        },
+        {
+          "text": "Software State Driver",
+          "image": null
+        }
+      ],
+      "enabled": true,
+      "yearLevel": 2
+    },
+    {
+      "id": 80,
+      "category": "neo-tech",
+      "question": "Compared with an HDD, an SSD normally has which advantage?",
+      "image": null,
+      "correctAnswer": {
+        "text": "Faster access with no mechanical seek movement",
+        "image": null
+      },
+      "dummyAnswers": [
+        {
+          "text": "Requires spinning platters",
+          "image": null
+        },
+        {
+          "text": "Cannot store files",
+          "image": null
+        },
+        {
+          "text": "Only works online",
+          "image": null
+        }
+      ],
+      "enabled": true,
+      "yearLevel": 2
+    },
+    {
+      "id": 81,
+      "category": "neo-tech",
+      "question": "What does RAM primarily provide?",
+      "image": null,
+      "correctAnswer": {
+        "text": "Fast temporary working memory for active programs",
+        "image": null
+      },
+      "dummyAnswers": [
+        {
+          "text": "Permanent archival storage only",
+          "image": null
+        },
+        {
+          "text": "Internet routing",
+          "image": null
+        },
+        {
+          "text": "Email delivery",
+          "image": null
+        }
+      ],
+      "enabled": true,
+      "yearLevel": 2
+    },
+    {
+      "id": 82,
+      "category": "neo-tech",
+      "question": "What does CPU stand for?",
+      "image": null,
+      "correctAnswer": {
+        "text": "Central Processing Unit",
+        "image": null
+      },
+      "dummyAnswers": [
+        {
+          "text": "Computer Power Utility",
+          "image": null
+        },
+        {
+          "text": "Central Program Upload",
+          "image": null
+        },
+        {
+          "text": "Core Peripheral User",
+          "image": null
+        }
+      ],
+      "enabled": true,
+      "yearLevel": 2
+    },
+    {
+      "id": 83,
+      "category": "neo-tech",
+      "question": "Why is device cooling important?",
+      "image": null,
+      "correctAnswer": {
+        "text": "Excess heat can reduce performance and hardware reliability",
+        "image": null
+      },
+      "dummyAnswers": [
+        {
+          "text": "It increases monitor resolution",
+          "image": null
+        },
+        {
+          "text": "It creates passwords",
+          "image": null
+        },
+        {
+          "text": "It replaces backups",
+          "image": null
+        }
+      ],
+      "enabled": true,
+      "yearLevel": 2
+    },
+    {
+      "id": 84,
+      "category": "neo-tech",
+      "question": "What is IoT?",
+      "image": null,
+      "correctAnswer": {
+        "text": "A network of physical devices that sense, communicate, or act through computing systems",
+        "image": null
+      },
+      "dummyAnswers": [
+        {
+          "text": "A single text file",
+          "image": null
+        },
+        {
+          "text": "Only a video format",
+          "image": null
+        },
+        {
+          "text": "A programming language",
+          "image": null
+        }
+      ],
+      "enabled": true,
+      "yearLevel": 3
+    },
+    {
+      "id": 85,
+      "category": "neo-tech",
+      "question": "Which technology is commonly used for short-range identification using tags/cards?",
+      "image": null,
+      "correctAnswer": {
+        "text": "RFID",
+        "image": null
+      },
+      "dummyAnswers": [
+        {
+          "text": "HDMI",
+          "image": null
+        },
+        {
+          "text": "CSS",
+          "image": null
+        },
+        {
+          "text": "SQL",
+          "image": null
+        }
+      ],
+      "enabled": true,
+      "yearLevel": 3
+    },
+    {
+      "id": 86,
+      "category": "neo-tech",
+      "question": "What is a server?",
+      "image": null,
+      "correctAnswer": {
+        "text": "A system that provides resources or services to clients",
+        "image": null
+      },
+      "dummyAnswers": [
+        {
+          "text": "Only a desktop wallpaper",
+          "image": null
+        },
+        {
+          "text": "A mouse driver",
+          "image": null
+        },
+        {
+          "text": "A printed manual",
+          "image": null
+        }
+      ],
+      "enabled": true,
+      "yearLevel": 3
+    },
+    {
+      "id": 87,
+      "category": "neo-tech",
+      "question": "What is network redundancy?",
+      "image": null,
+      "correctAnswer": {
+        "text": "Providing alternate components or paths to reduce a single point of failure",
+        "image": null
+      },
+      "dummyAnswers": [
+        {
+          "text": "Duplicating every password",
+          "image": null
+        },
+        {
+          "text": "Removing all backups",
+          "image": null
+        },
+        {
+          "text": "Using one cable for everything",
+          "image": null
+        }
+      ],
+      "enabled": true,
+      "yearLevel": 3
+    },
+    {
+      "id": 88,
+      "category": "neo-tech",
+      "question": "What is a private IP address typically used for?",
+      "image": null,
+      "correctAnswer": {
+        "text": "Addressing devices inside a local network",
+        "image": null
+      },
+      "dummyAnswers": [
+        {
+          "text": "Identifying a color value",
+          "image": null
+        },
+        {
+          "text": "Naming a database column",
+          "image": null
+        },
+        {
+          "text": "Sizing an image",
+          "image": null
+        }
+      ],
+      "enabled": true,
+      "yearLevel": 4
+    },
+    {
+      "id": 89,
+      "category": "neo-tech",
+      "question": "What is WebRTC primarily designed to support in browsers and apps?",
+      "image": null,
+      "correctAnswer": {
+        "text": "Real-time peer media and data communication",
+        "image": null
+      },
+      "dummyAnswers": [
+        {
+          "text": "Static HTML storage only",
+          "image": null
+        },
+        {
+          "text": "SQL migrations",
+          "image": null
+        },
+        {
+          "text": "Image compression only",
+          "image": null
+        }
+      ],
+      "enabled": true,
+      "yearLevel": 4
+    },
+    {
+      "id": 90,
+      "category": "neo-tech",
+      "question": "Why is a TURN server useful in WebRTC?",
+      "image": null,
+      "correctAnswer": {
+        "text": "It can relay traffic when direct peer connectivity cannot be established",
+        "image": null
+      },
+      "dummyAnswers": [
+        {
+          "text": "It replaces user authentication",
+          "image": null
+        },
+        {
+          "text": "It stores every password",
+          "image": null
+        },
+        {
+          "text": "It converts HTML to PDF",
+          "image": null
+        }
+      ],
+      "enabled": true,
+      "yearLevel": 4
+    },
+    {
+      "id": 91,
+      "category": "general",
+      "question": "Who is listed as the current President of Buenavista Community College?",
+      "image": null,
+      "correctAnswer": {
+        "text": "Dr. Analiza L. Chua",
+        "image": null
+      },
+      "dummyAnswers": [
+        {
+          "text": "Dr. Lourdes A. Bolo",
+          "image": null
+        },
+        {
+          "text": "Engr. Rodulfo A. Bolo",
+          "image": null
+        },
+        {
+          "text": "Ma. May N. Cupta",
+          "image": null
+        }
+      ],
+      "enabled": true,
+      "yearLevel": 1
+    },
+    {
+      "id": 92,
+      "category": "general",
+      "question": "According to BCC's official profile, Dr. Analiza L. Chua is which numbered president of the college?",
+      "image": null,
+      "correctAnswer": {
+        "text": "Second",
+        "image": null
+      },
+      "dummyAnswers": [
+        {
+          "text": "First",
+          "image": null
+        },
+        {
+          "text": "Third",
+          "image": null
+        },
+        {
+          "text": "Fourth",
+          "image": null
+        }
+      ],
+      "enabled": true,
+      "yearLevel": 1
+    },
+    {
+      "id": 93,
+      "category": "general",
+      "question": "Where is Buenavista Community College located?",
+      "image": null,
+      "correctAnswer": {
+        "text": "Cangawa, Buenavista, Bohol",
+        "image": null
+      },
+      "dummyAnswers": [
+        {
+          "text": "Tagbilaran City, Bohol",
+          "image": null
+        },
+        {
+          "text": "Bilar, Bohol",
+          "image": null
+        },
+        {
+          "text": "Talibon, Bohol",
+          "image": null
+        }
+      ],
+      "enabled": true,
+      "yearLevel": 1
+    },
+    {
+      "id": 94,
+      "category": "general",
+      "question": "What postal code is shown in BCC's official contact information?",
+      "image": null,
+      "correctAnswer": {
+        "text": "6333",
+        "image": null
+      },
+      "dummyAnswers": [
+        {
+          "text": "6300",
+          "image": null
+        },
+        {
+          "text": "6317",
+          "image": null
+        },
+        {
+          "text": "6340",
+          "image": null
+        }
+      ],
+      "enabled": true,
+      "yearLevel": 1
+    },
+    {
+      "id": 95,
+      "category": "general",
+      "question": "Who conceived the plan to open tertiary education in Buenavista that led to BCC's beginnings?",
+      "image": null,
+      "correctAnswer": {
+        "text": "Hon. Leandro T. Tirol",
+        "image": null
+      },
+      "dummyAnswers": [
+        {
+          "text": "Dr. Analiza L. Chua",
+          "image": null
+        },
+        {
+          "text": "Dr. Mateo M. Limbago",
+          "image": null
+        },
+        {
+          "text": "Engr. Rodulfo A. Bolo",
+          "image": null
+        }
+      ],
+      "enabled": true,
+      "yearLevel": 1
+    },
+    {
+      "id": 96,
+      "category": "general",
+      "question": "BCC's early classes were planned to open in which year?",
+      "image": null,
+      "correctAnswer": {
+        "text": "2001",
+        "image": null
+      },
+      "dummyAnswers": [
+        {
+          "text": "1998",
+          "image": null
+        },
+        {
+          "text": "2005",
+          "image": null
+        },
+        {
+          "text": "2009",
+          "image": null
+        }
+      ],
+      "enabled": true,
+      "yearLevel": 1
+    },
+    {
+      "id": 97,
+      "category": "general",
+      "question": "Before becoming independent, the Buenavista college operation functioned as an extension class of which institution?",
+      "image": null,
+      "correctAnswer": {
+        "text": "CVSCAFT Main Campus",
+        "image": null
+      },
+      "dummyAnswers": [
+        {
+          "text": "University of Bohol",
+          "image": null
+        },
+        {
+          "text": "Holy Name University",
+          "image": null
+        },
+        {
+          "text": "Bohol Island State University - Calape Campus",
+          "image": null
+        }
+      ],
+      "enabled": true,
+      "yearLevel": 1
+    },
+    {
+      "id": 98,
+      "category": "general",
+      "question": "On what date did the former CVSCAFT extension in Buenavista formally stand independently as Buenavista Community College?",
+      "image": null,
+      "correctAnswer": {
+        "text": "March 28, 2009",
+        "image": null
+      },
+      "dummyAnswers": [
+        {
+          "text": "June 1, 2001",
+          "image": null
+        },
+        {
+          "text": "August 18, 2020",
+          "image": null
+        },
+        {
+          "text": "July 22, 2026",
+          "image": null
+        }
+      ],
+      "enabled": true,
+      "yearLevel": 1
+    },
+    {
+      "id": 99,
+      "category": "general",
+      "question": "Who operates Buenavista Community College according to its institutional recognition information?",
+      "image": null,
+      "correctAnswer": {
+        "text": "Municipal Government of Buenavista, Bohol",
+        "image": null
+      },
+      "dummyAnswers": [
+        {
+          "text": "A private corporation",
+          "image": null
+        },
+        {
+          "text": "Provincial Government of Cebu",
+          "image": null
+        },
+        {
+          "text": "Department of Information and Communications Technology",
+          "image": null
+        }
+      ],
+      "enabled": true,
+      "yearLevel": 2
+    },
+    {
+      "id": 100,
+      "category": "general",
+      "question": "BCC is certified eligible for benefits under which law concerning access to tertiary education?",
+      "image": null,
+      "correctAnswer": {
+        "text": "Republic Act 10931",
+        "image": null
+      },
+      "dummyAnswers": [
+        {
+          "text": "Republic Act 10173",
+          "image": null
+        },
+        {
+          "text": "Republic Act 8792",
+          "image": null
+        },
+        {
+          "text": "Republic Act 9165",
+          "image": null
+        }
+      ],
+      "enabled": true,
+      "yearLevel": 2
+    },
+    {
+      "id": 101,
+      "category": "general",
+      "question": "Which Commission en banc resolution is cited for BCC's institutional recognition?",
+      "image": null,
+      "correctAnswer": {
+        "text": "Resolution No. 567-2020",
+        "image": null
+      },
+      "dummyAnswers": [
+        {
+          "text": "Resolution No. 564-2020",
+          "image": null
+        },
+        {
+          "text": "Resolution No. 10931-2020",
+          "image": null
+        },
+        {
+          "text": "Resolution No. 2001-2009",
+          "image": null
+        }
+      ],
+      "enabled": true,
+      "yearLevel": 2
+    },
+    {
+      "id": 102,
+      "category": "general",
+      "question": "Who is listed as BCC's Registrar?",
+      "image": null,
+      "correctAnswer": {
+        "text": "Ma. May N. Cupta",
+        "image": null
+      },
+      "dummyAnswers": [
+        {
+          "text": "Analiza L. Chua",
+          "image": null
+        },
+        {
+          "text": "Norma W. Yam-oc",
+          "image": null
+        },
+        {
+          "text": "Asteria S. Latonio",
+          "image": null
+        }
+      ],
+      "enabled": true,
+      "yearLevel": 2
+    },
+    {
+      "id": 103,
+      "category": "general",
+      "question": "Which phrase appears in BCC's vision regarding its graduates and workforce?",
+      "image": null,
+      "correctAnswer": {
+        "text": "Globally competitive workforce",
+        "image": null
+      },
+      "dummyAnswers": [
+        {
+          "text": "Military-ready workforce",
+          "image": null
+        },
+        {
+          "text": "Exclusive local workforce",
+          "image": null
+        },
+        {
+          "text": "Sports-only workforce",
+          "image": null
+        }
+      ],
+      "enabled": true,
+      "yearLevel": 2
+    },
+    {
+      "id": 104,
+      "category": "general",
+      "question": "What does BCC's mission emphasize providing access to?",
+      "image": null,
+      "correctAnswer": {
+        "text": "Affordable quality education",
+        "image": null
+      },
+      "dummyAnswers": [
+        {
+          "text": "Paid entertainment services",
+          "image": null
+        },
+        {
+          "text": "Private corporate training only",
+          "image": null
+        },
+        {
+          "text": "Exclusive international schooling",
+          "image": null
+        }
+      ],
+      "enabled": true,
+      "yearLevel": 3
+    },
+    {
+      "id": 105,
+      "category": "general",
+      "question": "Which college/department at BCC houses the BS Information Technology program?",
+      "image": null,
+      "correctAnswer": {
+        "text": "College of Information Technology Education",
+        "image": null
+      },
+      "dummyAnswers": [
+        {
+          "text": "College of Criminal Justice only",
+          "image": null
+        },
+        {
+          "text": "College of Hospitality Management only",
+          "image": null
+        },
+        {
+          "text": "Graduate School of Medicine",
+          "image": null
+        }
+      ],
+      "enabled": true,
+      "yearLevel": 3
+    },
+    {
+      "id": 106,
+      "category": "general",
+      "question": "BCC states that the College of Information Technology Education is open to which Senior High School graduates?",
+      "image": null,
+      "correctAnswer": {
+        "text": "All SHS graduates regardless of track",
+        "image": null
+      },
+      "dummyAnswers": [
+        {
+          "text": "STEM graduates only",
+          "image": null
+        },
+        {
+          "text": "TVL-ICT graduates only",
+          "image": null
+        },
+        {
+          "text": "ABM graduates only",
+          "image": null
+        }
+      ],
+      "enabled": true,
+      "yearLevel": 3
+    },
+    {
+      "id": 107,
+      "category": "general",
+      "question": "Which of these is listed as a primary job role for BCC BS Information Technology graduates?",
+      "image": null,
+      "correctAnswer": {
+        "text": "Web and Applications Developer",
+        "image": null
+      },
+      "dummyAnswers": [
+        {
+          "text": "Civil Engineer",
+          "image": null
+        },
+        {
+          "text": "Registered Nurse",
+          "image": null
+        },
+        {
+          "text": "Licensed Architect",
+          "image": null
+        }
+      ],
+      "enabled": true,
+      "yearLevel": 3
+    },
+    {
+      "id": 108,
+      "category": "general",
+      "question": "Which of these is also listed as a primary job role for BCC BS Information Technology graduates?",
+      "image": null,
+      "correctAnswer": {
+        "text": "Network Engineer",
+        "image": null
+      },
+      "dummyAnswers": [
+        {
+          "text": "Marine Engineer",
+          "image": null
+        },
+        {
+          "text": "Pharmacist",
+          "image": null
+        },
+        {
+          "text": "Accountant",
+          "image": null
+        }
+      ],
+      "enabled": true,
+      "yearLevel": 4
+    },
+    {
+      "id": 109,
+      "category": "general",
+      "question": "Which BCC office explicitly includes student organizations and leadership training in its student development programs?",
+      "image": null,
+      "correctAnswer": {
+        "text": "Student Affairs Office",
+        "image": null
+      },
+      "dummyAnswers": [
+        {
+          "text": "Registrar's Office only",
+          "image": null
+        },
+        {
+          "text": "Accounting Office",
+          "image": null
+        },
+        {
+          "text": "Property Custodian only",
+          "image": null
+        }
+      ],
+      "enabled": true,
+      "yearLevel": 4
+    },
+    {
+      "id": 110,
+      "category": "general",
+      "question": "Which contact email is listed by BCC for its registrar/general inquiries?",
+      "image": null,
+      "correctAnswer": {
+        "text": "registrarofbcc@gmail.com",
+        "image": null
+      },
+      "dummyAnswers": [
+        {
+          "text": "aits@bcc.edu.ph",
+          "image": null
+        },
+        {
+          "text": "president@buenavista.gov.ph",
+          "image": null
+        },
+        {
+          "text": "support@jpano.dev",
+          "image": null
+        }
+      ],
+      "enabled": true,
+      "yearLevel": 4
+    },
+    {
+      "id": 111,
+      "category": "codehex",
+      "question": "Which method is the usual entry point of a basic Java application?",
+      "image": null,
+      "correctAnswer": {
+        "text": "public static void main(String[] args)",
+        "image": null
+      },
+      "dummyAnswers": [
+        {
+          "text": "public void start()",
+          "image": null
+        },
+        {
+          "text": "static int run()",
+          "image": null
+        },
+        {
+          "text": "void init(String args)",
+          "image": null
+        }
+      ],
+      "enabled": true,
+      "yearLevel": 1,
+      "technology": "Java"
+    },
+    {
+      "id": 112,
+      "category": "codehex",
+      "question": "Which Java keyword is used to create a new object?",
+      "image": null,
+      "correctAnswer": {
+        "text": "new",
+        "image": null
+      },
+      "dummyAnswers": [
+        {
+          "text": "class",
+          "image": null
+        },
+        {
+          "text": "this",
+          "image": null
+        },
+        {
+          "text": "object",
+          "image": null
+        }
+      ],
+      "enabled": true,
+      "yearLevel": 1,
+      "technology": "Java"
+    },
+    {
+      "id": 113,
+      "category": "codehex",
+      "question": "Which Java data type stores whole numbers such as 10 or -5?",
+      "image": null,
+      "correctAnswer": {
+        "text": "int",
+        "image": null
+      },
+      "dummyAnswers": [
+        {
+          "text": "boolean",
+          "image": null
+        },
+        {
+          "text": "char",
+          "image": null
+        },
+        {
+          "text": "double[]",
+          "image": null
+        }
+      ],
+      "enabled": true,
+      "yearLevel": 1,
+      "technology": "Java"
+    },
+    {
+      "id": 114,
+      "category": "codehex",
+      "question": "Which Java primitive type stores true or false?",
+      "image": null,
+      "correctAnswer": {
+        "text": "boolean",
+        "image": null
+      },
+      "dummyAnswers": [
+        {
+          "text": "String",
+          "image": null
+        },
+        {
+          "text": "char",
+          "image": null
+        },
+        {
+          "text": "float",
+          "image": null
+        }
+      ],
+      "enabled": true,
+      "yearLevel": 1,
+      "technology": "Java"
+    },
+    {
+      "id": 115,
+      "category": "codehex",
+      "question": "Which symbol ends most Java statements?",
+      "image": null,
+      "correctAnswer": {
+        "text": "Semicolon (;)",
+        "image": null
+      },
+      "dummyAnswers": [
+        {
+          "text": "Colon (:)",
+          "image": null
+        },
+        {
+          "text": "Comma (,)",
+          "image": null
+        },
+        {
+          "text": "Period (.)",
+          "image": null
+        }
+      ],
+      "enabled": true,
+      "yearLevel": 1,
+      "technology": "Java"
+    },
+    {
+      "id": 116,
+      "category": "codehex",
+      "question": "Which keyword starts a conditional branch in Java?",
+      "image": null,
+      "correctAnswer": {
+        "text": "if",
+        "image": null
+      },
+      "dummyAnswers": [
+        {
+          "text": "loop",
+          "image": null
+        },
+        {
+          "text": "when",
+          "image": null
+        },
+        {
+          "text": "caseof",
+          "image": null
+        }
+      ],
+      "enabled": true,
+      "yearLevel": 1,
+      "technology": "Java"
+    },
+    {
+      "id": 117,
+      "category": "codehex",
+      "question": "Which loop is commonly used when the number of repetitions is known?",
+      "image": null,
+      "correctAnswer": {
+        "text": "for loop",
+        "image": null
+      },
+      "dummyAnswers": [
+        {
+          "text": "switch statement",
+          "image": null
+        },
+        {
+          "text": "import statement",
+          "image": null
+        },
+        {
+          "text": "class declaration",
+          "image": null
+        }
+      ],
+      "enabled": true,
+      "yearLevel": 1,
+      "technology": "Java"
+    },
+    {
+      "id": 118,
+      "category": "codehex",
+      "question": "Which loop checks its condition before every iteration?",
+      "image": null,
+      "correctAnswer": {
+        "text": "while loop",
+        "image": null
+      },
+      "dummyAnswers": [
+        {
+          "text": "package statement",
+          "image": null
+        },
+        {
+          "text": "try block",
+          "image": null
+        },
+        {
+          "text": "constructor",
+          "image": null
+        }
+      ],
+      "enabled": true,
+      "yearLevel": 1,
+      "technology": "Java"
+    },
+    {
+      "id": 119,
+      "category": "codehex",
+      "question": "Which Java loop always executes its body at least once before checking the condition?",
+      "image": null,
+      "correctAnswer": {
+        "text": "do-while loop",
+        "image": null
+      },
+      "dummyAnswers": [
+        {
+          "text": "for-each loop",
+          "image": null
+        },
+        {
+          "text": "while loop",
+          "image": null
+        },
+        {
+          "text": "if statement",
+          "image": null
+        }
+      ],
+      "enabled": true,
+      "yearLevel": 1,
+      "technology": "Java"
+    },
+    {
+      "id": 120,
+      "category": "codehex",
+      "question": "Which operator compares two primitive values for equality in Java?",
+      "image": null,
+      "correctAnswer": {
+        "text": "==",
+        "image": null
+      },
+      "dummyAnswers": [
+        {
+          "text": "=",
+          "image": null
+        },
+        {
+          "text": "=>",
+          "image": null
+        },
+        {
+          "text": "!=",
+          "image": null
+        }
+      ],
+      "enabled": true,
+      "yearLevel": 1,
+      "technology": "Java"
+    },
+    {
+      "id": 121,
+      "category": "codehex",
+      "question": "What does the Java assignment operator = do?",
+      "image": null,
+      "correctAnswer": {
+        "text": "Stores the right-hand value in the left-hand variable",
+        "image": null
+      },
+      "dummyAnswers": [
+        {
+          "text": "Tests equality",
+          "image": null
+        },
+        {
+          "text": "Adds two values only",
+          "image": null
+        },
+        {
+          "text": "Declares an interface",
+          "image": null
+        }
+      ],
+      "enabled": true,
+      "yearLevel": 1,
+      "technology": "Java"
+    },
+    {
+      "id": 122,
+      "category": "codehex",
+      "question": "Which class is commonly used to read keyboard input in beginner Java console programs?",
+      "image": null,
+      "correctAnswer": {
+        "text": "Scanner",
+        "image": null
+      },
+      "dummyAnswers": [
+        {
+          "text": "Printer",
+          "image": null
+        },
+        {
+          "text": "Keyboard",
+          "image": null
+        },
+        {
+          "text": "ConsoleReaderOnly",
+          "image": null
+        }
+      ],
+      "enabled": true,
+      "yearLevel": 1,
+      "technology": "Java"
+    },
+    {
+      "id": 123,
+      "category": "codehex",
+      "question": "Which package contains the Scanner class?",
+      "image": null,
+      "correctAnswer": {
+        "text": "java.util",
+        "image": null
+      },
+      "dummyAnswers": [
+        {
+          "text": "java.io.graphics",
+          "image": null
+        },
+        {
+          "text": "java.lang.scan",
+          "image": null
+        },
+        {
+          "text": "java.net.input",
+          "image": null
+        }
+      ],
+      "enabled": true,
+      "yearLevel": 1,
+      "technology": "Java"
+    },
+    {
+      "id": 124,
+      "category": "codehex",
+      "question": "Which Java type is commonly used for text?",
+      "image": null,
+      "correctAnswer": {
+        "text": "String",
+        "image": null
+      },
+      "dummyAnswers": [
+        {
+          "text": "Text",
+          "image": null
+        },
+        {
+          "text": "varchar",
+          "image": null
+        },
+        {
+          "text": "sentence",
+          "image": null
+        }
+      ],
+      "enabled": true,
+      "yearLevel": 1,
+      "technology": "Java"
+    },
+    {
+      "id": 125,
+      "category": "codehex",
+      "question": "What is an array in Java?",
+      "image": null,
+      "correctAnswer": {
+        "text": "A fixed-size collection of elements of one declared type",
+        "image": null
+      },
+      "dummyAnswers": [
+        {
+          "text": "A method that always returns text",
+          "image": null
+        },
+        {
+          "text": "A network connection",
+          "image": null
+        },
+        {
+          "text": "A database table only",
+          "image": null
+        }
+      ],
+      "enabled": true,
+      "yearLevel": 1,
+      "technology": "Java"
+    },
+    {
+      "id": 126,
+      "category": "codehex",
+      "question": "Which expression gets the number of elements in a Java array named values?",
+      "image": null,
+      "correctAnswer": {
+        "text": "values.length",
+        "image": null
+      },
+      "dummyAnswers": [
+        {
+          "text": "values.size()",
+          "image": null
+        },
+        {
+          "text": "length(values)",
+          "image": null
+        },
+        {
+          "text": "values.count",
+          "image": null
+        }
+      ],
+      "enabled": true,
+      "yearLevel": 1,
+      "technology": "Java"
+    },
+    {
+      "id": 127,
+      "category": "codehex",
+      "question": "What is a method in Java?",
+      "image": null,
+      "correctAnswer": {
+        "text": "A named block of code that can be called to perform a task",
+        "image": null
+      },
+      "dummyAnswers": [
+        {
+          "text": "A database row",
+          "image": null
+        },
+        {
+          "text": "A CSS selector",
+          "image": null
+        },
+        {
+          "text": "A hardware pin",
+          "image": null
+        }
+      ],
+      "enabled": true,
+      "yearLevel": 1,
+      "technology": "Java"
+    },
+    {
+      "id": 128,
+      "category": "codehex",
+      "question": "What is a class in Java?",
+      "image": null,
+      "correctAnswer": {
+        "text": "A blueprint that defines data and behavior for objects",
+        "image": null
+      },
+      "dummyAnswers": [
+        {
+          "text": "A loop that repeats forever",
+          "image": null
+        },
+        {
+          "text": "A command-line argument",
+          "image": null
+        },
+        {
+          "text": "A SQL query",
+          "image": null
+        }
+      ],
+      "enabled": true,
+      "yearLevel": 1,
+      "technology": "Java"
+    },
+    {
+      "id": 129,
+      "category": "codehex",
+      "question": "Which access modifier makes a Java member accessible from anywhere the class is accessible?",
+      "image": null,
+      "correctAnswer": {
+        "text": "public",
+        "image": null
+      },
+      "dummyAnswers": [
+        {
+          "text": "private",
+          "image": null
+        },
+        {
+          "text": "protected-only",
+          "image": null
+        },
+        {
+          "text": "local",
+          "image": null
+        }
+      ],
+      "enabled": true,
+      "yearLevel": 1,
+      "technology": "Java"
+    },
+    {
+      "id": 130,
+      "category": "codehex",
+      "question": "What does System.out.println() do in Java?",
+      "image": null,
+      "correctAnswer": {
+        "text": "Prints a value followed by a new line",
+        "image": null
+      },
+      "dummyAnswers": [
+        {
+          "text": "Reads a database",
+          "image": null
+        },
+        {
+          "text": "Creates a class",
+          "image": null
+        },
+        {
+          "text": "Stops the JVM immediately",
+          "image": null
+        }
+      ],
+      "enabled": true,
+      "yearLevel": 1,
+      "technology": "Java"
+    },
+    {
+      "id": 131,
+      "category": "illustrados",
+      "question": "Which HTML element creates a hyperlink?",
+      "image": null,
+      "correctAnswer": {
+        "text": "<a>",
+        "image": null
+      },
+      "dummyAnswers": [
+        {
+          "text": "<link-text>",
+          "image": null
+        },
+        {
+          "text": "<href>",
+          "image": null
+        },
+        {
+          "text": "<navlink>",
+          "image": null
+        }
+      ],
+      "enabled": true,
+      "yearLevel": 2,
+      "technology": "HTML"
+    },
+    {
+      "id": 132,
+      "category": "illustrados",
+      "question": "Which HTML attribute supplies alternative text for an image?",
+      "image": null,
+      "correctAnswer": {
+        "text": "alt",
+        "image": null
+      },
+      "dummyAnswers": [
+        {
+          "text": "href",
+          "image": null
+        },
+        {
+          "text": "srcset-only",
+          "image": null
+        },
+        {
+          "text": "titlebar",
+          "image": null
+        }
+      ],
+      "enabled": true,
+      "yearLevel": 2,
+      "technology": "HTML"
+    },
+    {
+      "id": 133,
+      "category": "illustrados",
+      "question": "Which semantic HTML element is intended for site navigation links?",
+      "image": null,
+      "correctAnswer": {
+        "text": "<nav>",
+        "image": null
+      },
+      "dummyAnswers": [
+        {
+          "text": "<aside-only>",
+          "image": null
+        },
+        {
+          "text": "<route>",
+          "image": null
+        },
+        {
+          "text": "<links>",
+          "image": null
+        }
+      ],
+      "enabled": true,
+      "yearLevel": 2,
+      "technology": "HTML"
+    },
+    {
+      "id": 134,
+      "category": "illustrados",
+      "question": "Which HTML element is used for the largest default heading level?",
+      "image": null,
+      "correctAnswer": {
+        "text": "<h1>",
+        "image": null
+      },
+      "dummyAnswers": [
+        {
+          "text": "<h6>",
+          "image": null
+        },
+        {
+          "text": "<header-text>",
+          "image": null
+        },
+        {
+          "text": "<title>",
+          "image": null
+        }
+      ],
+      "enabled": true,
+      "yearLevel": 2,
+      "technology": "HTML"
+    },
+    {
+      "id": 135,
+      "category": "illustrados",
+      "question": "Which input type is intended for an email address?",
+      "image": null,
+      "correctAnswer": {
+        "text": "email",
+        "image": null
+      },
+      "dummyAnswers": [
+        {
+          "text": "mailbox",
+          "image": null
+        },
+        {
+          "text": "address",
+          "image": null
+        },
+        {
+          "text": "text-email",
+          "image": null
+        }
+      ],
+      "enabled": true,
+      "yearLevel": 2,
+      "technology": "HTML"
+    },
+    {
+      "id": 136,
+      "category": "illustrados",
+      "question": "Which HTML element is used to represent tabular data?",
+      "image": null,
+      "correctAnswer": {
+        "text": "<table>",
+        "image": null
+      },
+      "dummyAnswers": [
+        {
+          "text": "<grid>",
+          "image": null
+        },
+        {
+          "text": "<sheet>",
+          "image": null
+        },
+        {
+          "text": "<rows>",
+          "image": null
+        }
+      ],
+      "enabled": true,
+      "yearLevel": 2,
+      "technology": "HTML"
+    },
+    {
+      "id": 137,
+      "category": "illustrados",
+      "question": "Why is the lang attribute on the html element useful?",
+      "image": null,
+      "correctAnswer": {
+        "text": "It declares the document language for browsers and assistive technology",
+        "image": null
+      },
+      "dummyAnswers": [
+        {
+          "text": "It changes the programming language",
+          "image": null
+        },
+        {
+          "text": "It encrypts the page",
+          "image": null
+        },
+        {
+          "text": "It replaces the charset",
+          "image": null
+        }
+      ],
+      "enabled": true,
+      "yearLevel": 2,
+      "technology": "HTML"
+    },
+    {
+      "id": 138,
+      "category": "illustrados",
+      "question": "Which HTML element is appropriate for the main unique content of a page?",
+      "image": null,
+      "correctAnswer": {
+        "text": "<main>",
+        "image": null
+      },
+      "dummyAnswers": [
+        {
+          "text": "<body-part>",
+          "image": null
+        },
+        {
+          "text": "<center>",
+          "image": null
+        },
+        {
+          "text": "<primary>",
+          "image": null
+        }
+      ],
+      "enabled": true,
+      "yearLevel": 2,
+      "technology": "HTML"
+    },
+    {
+      "id": 139,
+      "category": "illustrados",
+      "question": "Which CSS property controls the space inside an element's border?",
+      "image": null,
+      "correctAnswer": {
+        "text": "padding",
+        "image": null
+      },
+      "dummyAnswers": [
+        {
+          "text": "margin",
+          "image": null
+        },
+        {
+          "text": "gap-only",
+          "image": null
+        },
+        {
+          "text": "outline",
+          "image": null
+        }
+      ],
+      "enabled": true,
+      "yearLevel": 2,
+      "technology": "CSS"
+    },
+    {
+      "id": 140,
+      "category": "illustrados",
+      "question": "Which CSS property controls the space outside an element's border?",
+      "image": null,
+      "correctAnswer": {
+        "text": "margin",
+        "image": null
+      },
+      "dummyAnswers": [
+        {
+          "text": "padding",
+          "image": null
+        },
+        {
+          "text": "line-height",
+          "image": null
+        },
+        {
+          "text": "overflow",
+          "image": null
+        }
+      ],
+      "enabled": true,
+      "yearLevel": 2,
+      "technology": "CSS"
+    },
+    {
+      "id": 141,
+      "category": "illustrados",
+      "question": "Which display value enables a flex formatting context?",
+      "image": null,
+      "correctAnswer": {
+        "text": "flex",
+        "image": null
+      },
+      "dummyAnswers": [
+        {
+          "text": "block-flexed",
+          "image": null
+        },
+        {
+          "text": "row",
+          "image": null
+        },
+        {
+          "text": "inline-grid-only",
+          "image": null
+        }
+      ],
+      "enabled": true,
+      "yearLevel": 2,
+      "technology": "CSS"
+    },
+    {
+      "id": 142,
+      "category": "illustrados",
+      "question": "Which CSS property changes an element's background color?",
+      "image": null,
+      "correctAnswer": {
+        "text": "background-color",
+        "image": null
+      },
+      "dummyAnswers": [
+        {
+          "text": "font-color",
+          "image": null
+        },
+        {
+          "text": "fill-text",
+          "image": null
+        },
+        {
+          "text": "color-mode",
+          "image": null
+        }
+      ],
+      "enabled": true,
+      "yearLevel": 2,
+      "technology": "CSS"
+    },
+    {
+      "id": 143,
+      "category": "illustrados",
+      "question": "What does a media query help a web page do?",
+      "image": null,
+      "correctAnswer": {
+        "text": "Apply styles based on device or viewport conditions",
+        "image": null
+      },
+      "dummyAnswers": [
+        {
+          "text": "Query a SQL database",
+          "image": null
+        },
+        {
+          "text": "Download media files only",
+          "image": null
+        },
+        {
+          "text": "Replace JavaScript",
+          "image": null
+        }
+      ],
+      "enabled": true,
+      "yearLevel": 2,
+      "technology": "CSS"
+    },
+    {
+      "id": 144,
+      "category": "illustrados",
+      "question": "Which unit is relative to the root element's font size?",
+      "image": null,
+      "correctAnswer": {
+        "text": "rem",
+        "image": null
+      },
+      "dummyAnswers": [
+        {
+          "text": "px",
+          "image": null
+        },
+        {
+          "text": "cm",
+          "image": null
+        },
+        {
+          "text": "vh-only",
+          "image": null
+        }
+      ],
+      "enabled": true,
+      "yearLevel": 2,
+      "technology": "CSS"
+    },
+    {
+      "id": 145,
+      "category": "illustrados",
+      "question": "Which property can round the corners of a box?",
+      "image": null,
+      "correctAnswer": {
+        "text": "border-radius",
+        "image": null
+      },
+      "dummyAnswers": [
+        {
+          "text": "corner-style",
+          "image": null
+        },
+        {
+          "text": "radius",
+          "image": null
+        },
+        {
+          "text": "border-round",
+          "image": null
+        }
+      ],
+      "enabled": true,
+      "yearLevel": 2,
+      "technology": "CSS"
+    },
+    {
+      "id": 146,
+      "category": "illustrados",
+      "question": "What does box-sizing: border-box do?",
+      "image": null,
+      "correctAnswer": {
+        "text": "Includes padding and border inside the declared width and height",
+        "image": null
+      },
+      "dummyAnswers": [
+        {
+          "text": "Hides every border",
+          "image": null
+        },
+        {
+          "text": "Forces a square box",
+          "image": null
+        },
+        {
+          "text": "Removes padding",
+          "image": null
+        }
+      ],
+      "enabled": true,
+      "yearLevel": 2,
+      "technology": "CSS"
+    },
+    {
+      "id": 147,
+      "category": "codehex",
+      "question": "Which keyword declares a block-scoped variable that cannot be reassigned?",
+      "image": null,
+      "correctAnswer": {
+        "text": "const",
+        "image": null
+      },
+      "dummyAnswers": [
+        {
+          "text": "var-only",
+          "image": null
+        },
+        {
+          "text": "static",
+          "image": null
+        },
+        {
+          "text": "final",
+          "image": null
+        }
+      ],
+      "enabled": true,
+      "yearLevel": 2,
+      "technology": "JavaScript"
+    },
+    {
+      "id": 148,
+      "category": "codehex",
+      "question": "Which array method adds an item to the end of an array?",
+      "image": null,
+      "correctAnswer": {
+        "text": "push()",
+        "image": null
+      },
+      "dummyAnswers": [
+        {
+          "text": "pop()",
+          "image": null
+        },
+        {
+          "text": "shift()",
+          "image": null
+        },
+        {
+          "text": "slice()",
+          "image": null
+        }
+      ],
+      "enabled": true,
+      "yearLevel": 2,
+      "technology": "JavaScript"
+    },
+    {
+      "id": 149,
+      "category": "codehex",
+      "question": "Which array method removes and returns the last item?",
+      "image": null,
+      "correctAnswer": {
+        "text": "pop()",
+        "image": null
+      },
+      "dummyAnswers": [
+        {
+          "text": "push()",
+          "image": null
+        },
+        {
+          "text": "map()",
+          "image": null
+        },
+        {
+          "text": "unshift()",
+          "image": null
+        }
+      ],
+      "enabled": true,
+      "yearLevel": 2,
+      "technology": "JavaScript"
+    },
+    {
+      "id": 150,
+      "category": "codehex",
+      "question": "What does JSON.parse() do?",
+      "image": null,
+      "correctAnswer": {
+        "text": "Converts a JSON string into a JavaScript value",
+        "image": null
+      },
+      "dummyAnswers": [
+        {
+          "text": "Converts an object into CSS",
+          "image": null
+        },
+        {
+          "text": "Uploads JSON to a server",
+          "image": null
+        },
+        {
+          "text": "Compiles JavaScript",
+          "image": null
+        }
+      ],
+      "enabled": true,
+      "yearLevel": 2,
+      "technology": "JavaScript"
+    },
+    {
+      "id": 151,
+      "category": "codehex",
+      "question": "What does JSON.stringify() do?",
+      "image": null,
+      "correctAnswer": {
+        "text": "Converts a JavaScript value into a JSON string",
+        "image": null
+      },
+      "dummyAnswers": [
+        {
+          "text": "Parses HTML",
+          "image": null
+        },
+        {
+          "text": "Encrypts an object",
+          "image": null
+        },
+        {
+          "text": "Creates a database",
+          "image": null
+        }
+      ],
+      "enabled": true,
+      "yearLevel": 2,
+      "technology": "JavaScript"
+    },
+    {
+      "id": 152,
+      "category": "codehex",
+      "question": "Which browser API is commonly used to select an element by CSS selector?",
+      "image": null,
+      "correctAnswer": {
+        "text": "document.querySelector()",
+        "image": null
+      },
+      "dummyAnswers": [
+        {
+          "text": "window.findCSS()",
+          "image": null
+        },
+        {
+          "text": "document.pick()",
+          "image": null
+        },
+        {
+          "text": "element.search()",
+          "image": null
+        }
+      ],
+      "enabled": true,
+      "yearLevel": 2,
+      "technology": "JavaScript"
+    },
+    {
+      "id": 153,
+      "category": "codehex",
+      "question": "Which event commonly fires when a user activates a button with a pointer?",
+      "image": null,
+      "correctAnswer": {
+        "text": "click",
+        "image": null
+      },
+      "dummyAnswers": [
+        {
+          "text": "compile",
+          "image": null
+        },
+        {
+          "text": "rendered",
+          "image": null
+        },
+        {
+          "text": "database",
+          "image": null
+        }
+      ],
+      "enabled": true,
+      "yearLevel": 2,
+      "technology": "JavaScript"
+    },
+    {
+      "id": 154,
+      "category": "codehex",
+      "question": "What does an async function return?",
+      "image": null,
+      "correctAnswer": {
+        "text": "A Promise",
+        "image": null
+      },
+      "dummyAnswers": [
+        {
+          "text": "Only a string",
+          "image": null
+        },
+        {
+          "text": "A CSS rule",
+          "image": null
+        },
+        {
+          "text": "A database connection",
+          "image": null
+        }
+      ],
+      "enabled": true,
+      "yearLevel": 2,
+      "technology": "JavaScript"
+    },
+    {
+      "id": 155,
+      "category": "codehex",
+      "question": "Which keyword waits for a Promise inside an async function?",
+      "image": null,
+      "correctAnswer": {
+        "text": "await",
+        "image": null
+      },
+      "dummyAnswers": [
+        {
+          "text": "pause",
+          "image": null
+        },
+        {
+          "text": "yield-only",
+          "image": null
+        },
+        {
+          "text": "wait",
+          "image": null
+        }
+      ],
+      "enabled": true,
+      "yearLevel": 2,
+      "technology": "JavaScript"
+    },
+    {
+      "id": 156,
+      "category": "codehex",
+      "question": "Which operator is strict equality in JavaScript?",
+      "image": null,
+      "correctAnswer": {
+        "text": "===",
+        "image": null
+      },
+      "dummyAnswers": [
+        {
+          "text": "== only",
+          "image": null
+        },
+        {
+          "text": "=",
+          "image": null
+        },
+        {
+          "text": "=>",
+          "image": null
+        }
+      ],
+      "enabled": true,
+      "yearLevel": 2,
+      "technology": "JavaScript"
+    },
+    {
+      "id": 157,
+      "category": "illustrados",
+      "question": "Which Bootstrap class creates a responsive fixed-width container at common breakpoints?",
+      "image": null,
+      "correctAnswer": {
+        "text": "container",
+        "image": null
+      },
+      "dummyAnswers": [
+        {
+          "text": "wrapper",
+          "image": null
+        },
+        {
+          "text": "container-fixed-only",
+          "image": null
+        },
+        {
+          "text": "layout",
+          "image": null
+        }
+      ],
+      "enabled": true,
+      "yearLevel": 2,
+      "technology": "Bootstrap"
+    },
+    {
+      "id": 158,
+      "category": "illustrados",
+      "question": "Which Bootstrap utility class commonly centers text?",
+      "image": null,
+      "correctAnswer": {
+        "text": "text-center",
+        "image": null
+      },
+      "dummyAnswers": [
+        {
+          "text": "align-middle-text",
+          "image": null
+        },
+        {
+          "text": "center-text-only",
+          "image": null
+        },
+        {
+          "text": "justify-center",
+          "image": null
+        }
+      ],
+      "enabled": true,
+      "yearLevel": 2,
+      "technology": "Bootstrap"
+    },
+    {
+      "id": 159,
+      "category": "illustrados",
+      "question": "Which Bootstrap grid class represents a row?",
+      "image": null,
+      "correctAnswer": {
+        "text": "row",
+        "image": null
+      },
+      "dummyAnswers": [
+        {
+          "text": "grid-row-12",
+          "image": null
+        },
+        {
+          "text": "line",
+          "image": null
+        },
+        {
+          "text": "columns",
+          "image": null
+        }
+      ],
+      "enabled": true,
+      "yearLevel": 2,
+      "technology": "Bootstrap"
+    },
+    {
+      "id": 160,
+      "category": "illustrados",
+      "question": "Which Bootstrap prefix is used for column classes?",
+      "image": null,
+      "correctAnswer": {
+        "text": "col-",
+        "image": null
+      },
+      "dummyAnswers": [
+        {
+          "text": "column-",
+          "image": null
+        },
+        {
+          "text": "grid-",
+          "image": null
+        },
+        {
+          "text": "cell-",
+          "image": null
+        }
+      ],
+      "enabled": true,
+      "yearLevel": 2,
+      "technology": "Bootstrap"
+    },
+    {
+      "id": 161,
+      "category": "illustrados",
+      "question": "Which Bootstrap class commonly hides an element using display: none?",
+      "image": null,
+      "correctAnswer": {
+        "text": "d-none",
+        "image": null
+      },
+      "dummyAnswers": [
+        {
+          "text": "hidden-all",
+          "image": null
+        },
+        {
+          "text": "display-off",
+          "image": null
+        },
+        {
+          "text": "invisible-none",
+          "image": null
+        }
+      ],
+      "enabled": true,
+      "yearLevel": 2,
+      "technology": "Bootstrap"
+    },
+    {
+      "id": 162,
+      "category": "illustrados",
+      "question": "What is a Bootstrap breakpoint used for?",
+      "image": null,
+      "correctAnswer": {
+        "text": "Changing responsive layout behavior at viewport widths",
+        "image": null
+      },
+      "dummyAnswers": [
+        {
+          "text": "Starting a Java debugger",
+          "image": null
+        },
+        {
+          "text": "Creating a database index",
+          "image": null
+        },
+        {
+          "text": "Stopping CSS parsing",
+          "image": null
+        }
+      ],
+      "enabled": true,
+      "yearLevel": 2,
+      "technology": "Bootstrap"
+    },
+    {
+      "id": 163,
+      "category": "codehex",
+      "question": "Which SQL clause filters rows before they are returned?",
+      "image": null,
+      "correctAnswer": {
+        "text": "WHERE",
+        "image": null
+      },
+      "dummyAnswers": [
+        {
+          "text": "ORDER BY",
+          "image": null
+        },
+        {
+          "text": "GROUP VIEW",
+          "image": null
+        },
+        {
+          "text": "FILTER TABLE",
+          "image": null
+        }
+      ],
+      "enabled": true,
+      "yearLevel": 3,
+      "technology": "MySQL"
+    },
+    {
+      "id": 164,
+      "category": "codehex",
+      "question": "Which SQL command adds a new row to a table?",
+      "image": null,
+      "correctAnswer": {
+        "text": "INSERT",
+        "image": null
+      },
+      "dummyAnswers": [
+        {
+          "text": "APPEND ROW",
+          "image": null
+        },
+        {
+          "text": "CREATE VALUE",
+          "image": null
+        },
+        {
+          "text": "PUSH",
+          "image": null
+        }
+      ],
+      "enabled": true,
+      "yearLevel": 3,
+      "technology": "MySQL"
+    },
+    {
+      "id": 165,
+      "category": "codehex",
+      "question": "Which SQL command changes existing rows?",
+      "image": null,
+      "correctAnswer": {
+        "text": "UPDATE",
+        "image": null
+      },
+      "dummyAnswers": [
+        {
+          "text": "ALTER VALUE ONLY",
+          "image": null
+        },
+        {
+          "text": "MODIFY ROWS",
+          "image": null
+        },
+        {
+          "text": "REPLACE TABLE",
+          "image": null
+        }
+      ],
+      "enabled": true,
+      "yearLevel": 3,
+      "technology": "MySQL"
+    },
+    {
+      "id": 166,
+      "category": "codehex",
+      "question": "Which SQL command removes matching rows from a table?",
+      "image": null,
+      "correctAnswer": {
+        "text": "DELETE",
+        "image": null
+      },
+      "dummyAnswers": [
+        {
+          "text": "DROP COLUMN only",
+          "image": null
+        },
+        {
+          "text": "ERASE",
+          "image": null
+        },
+        {
+          "text": "REMOVE ROW",
+          "image": null
+        }
+      ],
+      "enabled": true,
+      "yearLevel": 3,
+      "technology": "MySQL"
+    },
+    {
+      "id": 167,
+      "category": "codehex",
+      "question": "What is a primary key used for?",
+      "image": null,
+      "correctAnswer": {
+        "text": "Uniquely identifying each row in a table",
+        "image": null
+      },
+      "dummyAnswers": [
+        {
+          "text": "Styling query output",
+          "image": null
+        },
+        {
+          "text": "Encrypting every column",
+          "image": null
+        },
+        {
+          "text": "Sorting only text",
+          "image": null
+        }
+      ],
+      "enabled": true,
+      "yearLevel": 3,
+      "technology": "MySQL"
+    },
+    {
+      "id": 168,
+      "category": "codehex",
+      "question": "What is a foreign key used for?",
+      "image": null,
+      "correctAnswer": {
+        "text": "Representing a relationship to a key in another table",
+        "image": null
+      },
+      "dummyAnswers": [
+        {
+          "text": "Changing server ports",
+          "image": null
+        },
+        {
+          "text": "Storing CSS",
+          "image": null
+        },
+        {
+          "text": "Creating passwords automatically",
+          "image": null
+        }
+      ],
+      "enabled": true,
+      "yearLevel": 3,
+      "technology": "MySQL"
+    },
+    {
+      "id": 169,
+      "category": "codehex",
+      "question": "Which JOIN returns matching rows from both joined tables?",
+      "image": null,
+      "correctAnswer": {
+        "text": "INNER JOIN",
+        "image": null
+      },
+      "dummyAnswers": [
+        {
+          "text": "OUTSIDE JOIN",
+          "image": null
+        },
+        {
+          "text": "PAIR JOIN",
+          "image": null
+        },
+        {
+          "text": "MATCH ONLY",
+          "image": null
+        }
+      ],
+      "enabled": true,
+      "yearLevel": 3,
+      "technology": "MySQL"
+    },
+    {
+      "id": 170,
+      "category": "codehex",
+      "question": "Why should application code use parameterized queries?",
+      "image": null,
+      "correctAnswer": {
+        "text": "To separate data from SQL syntax and reduce SQL injection risk",
+        "image": null
+      },
+      "dummyAnswers": [
+        {
+          "text": "To make every query faster automatically",
+          "image": null
+        },
+        {
+          "text": "To avoid using indexes",
+          "image": null
+        },
+        {
+          "text": "To convert SQL into HTML",
+          "image": null
+        }
+      ],
+      "enabled": true,
+      "yearLevel": 3,
+      "technology": "MySQL"
+    },
+    {
+      "id": 171,
+      "category": "codehex",
+      "question": "Which keyword defines a function in Python?",
+      "image": null,
+      "correctAnswer": {
+        "text": "def",
+        "image": null
+      },
+      "dummyAnswers": [
+        {
+          "text": "func",
+          "image": null
+        },
+        {
+          "text": "function",
+          "image": null
+        },
+        {
+          "text": "method",
+          "image": null
+        }
+      ],
+      "enabled": true,
+      "yearLevel": 3,
+      "technology": "Python"
+    },
+    {
+      "id": 172,
+      "category": "codehex",
+      "question": "Which Python data type stores an ordered mutable collection?",
+      "image": null,
+      "correctAnswer": {
+        "text": "list",
+        "image": null
+      },
+      "dummyAnswers": [
+        {
+          "text": "tuple only",
+          "image": null
+        },
+        {
+          "text": "set only",
+          "image": null
+        },
+        {
+          "text": "frozenset",
+          "image": null
+        }
+      ],
+      "enabled": true,
+      "yearLevel": 3,
+      "technology": "Python"
+    },
+    {
+      "id": 173,
+      "category": "codehex",
+      "question": "Which Python statement is used to handle an exception?",
+      "image": null,
+      "correctAnswer": {
+        "text": "try/except",
+        "image": null
+      },
+      "dummyAnswers": [
+        {
+          "text": "if/error",
+          "image": null
+        },
+        {
+          "text": "catch-only",
+          "image": null
+        },
+        {
+          "text": "guard",
+          "image": null
+        }
+      ],
+      "enabled": true,
+      "yearLevel": 3,
+      "technology": "Python"
+    },
+    {
+      "id": 174,
+      "category": "codehex",
+      "question": "What does len(items) return in Python?",
+      "image": null,
+      "correctAnswer": {
+        "text": "The number of items in the object when supported",
+        "image": null
+      },
+      "dummyAnswers": [
+        {
+          "text": "The memory address",
+          "image": null
+        },
+        {
+          "text": "The last item",
+          "image": null
+        },
+        {
+          "text": "The data type",
+          "image": null
+        }
+      ],
+      "enabled": true,
+      "yearLevel": 3,
+      "technology": "Python"
+    },
+    {
+      "id": 175,
+      "category": "codehex",
+      "question": "Which keyword iterates over items in a Python for loop?",
+      "image": null,
+      "correctAnswer": {
+        "text": "in",
+        "image": null
+      },
+      "dummyAnswers": [
+        {
+          "text": "of",
+          "image": null
+        },
+        {
+          "text": "each",
+          "image": null
+        },
+        {
+          "text": "from",
+          "image": null
+        }
+      ],
+      "enabled": true,
+      "yearLevel": 3,
+      "technology": "Python"
+    },
+    {
+      "id": 176,
+      "category": "codehex",
+      "question": "Which Python value represents the absence of a value?",
+      "image": null,
+      "correctAnswer": {
+        "text": "None",
+        "image": null
+      },
+      "dummyAnswers": [
+        {
+          "text": "null",
+          "image": null
+        },
+        {
+          "text": "undefined",
+          "image": null
+        },
+        {
+          "text": "void",
+          "image": null
+        }
+      ],
+      "enabled": true,
+      "yearLevel": 3,
+      "technology": "Python"
+    },
+    {
+      "id": 177,
+      "category": "codehex",
+      "question": "What does a Python dictionary store?",
+      "image": null,
+      "correctAnswer": {
+        "text": "Key-value pairs",
+        "image": null
+      },
+      "dummyAnswers": [
+        {
+          "text": "Only numbers",
+          "image": null
+        },
+        {
+          "text": "Only ordered duplicate-free values",
+          "image": null
+        },
+        {
+          "text": "Compiled bytecode only",
+          "image": null
+        }
+      ],
+      "enabled": true,
+      "yearLevel": 3,
+      "technology": "Python"
+    },
+    {
+      "id": 178,
+      "category": "codehex",
+      "question": "Which syntax creates a Python comment on one line?",
+      "image": null,
+      "correctAnswer": {
+        "text": "# comment",
+        "image": null
+      },
+      "dummyAnswers": [
+        {
+          "text": "// comment",
+          "image": null
+        },
+        {
+          "text": "<!-- comment -->",
+          "image": null
+        },
+        {
+          "text": "/* comment */",
+          "image": null
+        }
+      ],
+      "enabled": true,
+      "yearLevel": 3,
+      "technology": "Python"
+    },
+    {
+      "id": 179,
+      "category": "neo-tech",
+      "question": "Which Arduino function runs once when the board starts or resets?",
+      "image": null,
+      "correctAnswer": {
+        "text": "setup()",
+        "image": null
+      },
+      "dummyAnswers": [
+        {
+          "text": "start()",
+          "image": null
+        },
+        {
+          "text": "mainLoop()",
+          "image": null
+        },
+        {
+          "text": "initUser()",
+          "image": null
+        }
+      ],
+      "enabled": true,
+      "yearLevel": 3,
+      "technology": "Arduino (C++)"
+    },
+    {
+      "id": 180,
+      "category": "neo-tech",
+      "question": "Which Arduino function repeats continuously after setup()?",
+      "image": null,
+      "correctAnswer": {
+        "text": "loop()",
+        "image": null
+      },
+      "dummyAnswers": [
+        {
+          "text": "repeat()",
+          "image": null
+        },
+        {
+          "text": "whileBoard()",
+          "image": null
+        },
+        {
+          "text": "cycle()",
+          "image": null
+        }
+      ],
+      "enabled": true,
+      "yearLevel": 3,
+      "technology": "Arduino (C++)"
+    },
+    {
+      "id": 181,
+      "category": "neo-tech",
+      "question": "Which Arduino function configures a digital pin as INPUT or OUTPUT?",
+      "image": null,
+      "correctAnswer": {
+        "text": "pinMode()",
+        "image": null
+      },
+      "dummyAnswers": [
+        {
+          "text": "digitalMode()",
+          "image": null
+        },
+        {
+          "text": "setPin()",
+          "image": null
+        },
+        {
+          "text": "gpioConfigOnly()",
+          "image": null
+        }
+      ],
+      "enabled": true,
+      "yearLevel": 3,
+      "technology": "Arduino (C++)"
+    },
+    {
+      "id": 182,
+      "category": "neo-tech",
+      "question": "Which Arduino function writes HIGH or LOW to a digital output pin?",
+      "image": null,
+      "correctAnswer": {
+        "text": "digitalWrite()",
+        "image": null
+      },
+      "dummyAnswers": [
+        {
+          "text": "analogRead()",
+          "image": null
+        },
+        {
+          "text": "pinMode()",
+          "image": null
+        },
+        {
+          "text": "serialWritePin()",
+          "image": null
+        }
+      ],
+      "enabled": true,
+      "yearLevel": 3,
+      "technology": "Arduino (C++)"
+    },
+    {
+      "id": 183,
+      "category": "neo-tech",
+      "question": "Which Arduino function reads HIGH or LOW from a digital input pin?",
+      "image": null,
+      "correctAnswer": {
+        "text": "digitalRead()",
+        "image": null
+      },
+      "dummyAnswers": [
+        {
+          "text": "digitalWrite()",
+          "image": null
+        },
+        {
+          "text": "analogWrite()",
+          "image": null
+        },
+        {
+          "text": "readSerial()",
+          "image": null
+        }
+      ],
+      "enabled": true,
+      "yearLevel": 3,
+      "technology": "Arduino (C++)"
+    },
+    {
+      "id": 184,
+      "category": "neo-tech",
+      "question": "What does Serial.begin(9600) configure on a typical Arduino sketch?",
+      "image": null,
+      "correctAnswer": {
+        "text": "Serial communication at 9600 baud",
+        "image": null
+      },
+      "dummyAnswers": [
+        {
+          "text": "CPU clock at 9600 MHz",
+          "image": null
+        },
+        {
+          "text": "Pin 9600 as output",
+          "image": null
+        },
+        {
+          "text": "A 9600-byte array",
+          "image": null
+        }
+      ],
+      "enabled": true,
+      "yearLevel": 3,
+      "technology": "Arduino (C++)"
+    },
+    {
+      "id": 185,
+      "category": "neo-tech",
+      "question": "In Arduino C++, what does const indicate for a variable or object when applicable?",
+      "image": null,
+      "correctAnswer": {
+        "text": "Its value should not be modified after initialization through that name",
+        "image": null
+      },
+      "dummyAnswers": [
+        {
+          "text": "It must be global",
+          "image": null
+        },
+        {
+          "text": "It is always a string",
+          "image": null
+        },
+        {
+          "text": "It is automatically stored in EEPROM",
+          "image": null
+        }
+      ],
+      "enabled": true,
+      "yearLevel": 3,
+      "technology": "Arduino (C++)"
+    },
+    {
+      "id": 186,
+      "category": "neo-tech",
+      "question": "Why is delay() often avoided in responsive Arduino designs?",
+      "image": null,
+      "correctAnswer": {
+        "text": "It blocks the main loop from doing other work during the delay",
+        "image": null
+      },
+      "dummyAnswers": [
+        {
+          "text": "It permanently damages timers",
+          "image": null
+        },
+        {
+          "text": "It disables every pin",
+          "image": null
+        },
+        {
+          "text": "It changes C++ into C",
+          "image": null
+        }
+      ],
+      "enabled": true,
+      "yearLevel": 3,
+      "technology": "Arduino (C++)"
+    },
+    {
+      "id": 187,
+      "category": "codehex",
+      "question": "Which Dart keyword declares an immutable compile-time constant when the value is known at compile time?",
+      "image": null,
+      "correctAnswer": {
+        "text": "const",
+        "image": null
+      },
+      "dummyAnswers": [
+        {
+          "text": "final only",
+          "image": null
+        },
+        {
+          "text": "static-only",
+          "image": null
+        },
+        {
+          "text": "immutable",
+          "image": null
+        }
+      ],
+      "enabled": true,
+      "yearLevel": 4,
+      "technology": "Dart/Flutter"
+    },
+    {
+      "id": 188,
+      "category": "codehex",
+      "question": "Which Dart keyword allows a variable to be assigned once at runtime?",
+      "image": null,
+      "correctAnswer": {
+        "text": "final",
+        "image": null
+      },
+      "dummyAnswers": [
+        {
+          "text": "const only",
+          "image": null
+        },
+        {
+          "text": "let",
+          "image": null
+        },
+        {
+          "text": "readonly",
+          "image": null
+        }
+      ],
+      "enabled": true,
+      "yearLevel": 4,
+      "technology": "Dart/Flutter"
+    },
+    {
+      "id": 189,
+      "category": "codehex",
+      "question": "What is a Widget in Flutter?",
+      "image": null,
+      "correctAnswer": {
+        "text": "A description of part of the user interface",
+        "image": null
+      },
+      "dummyAnswers": [
+        {
+          "text": "A database transaction",
+          "image": null
+        },
+        {
+          "text": "A native network cable",
+          "image": null
+        },
+        {
+          "text": "A compiler flag",
+          "image": null
+        }
+      ],
+      "enabled": true,
+      "yearLevel": 4,
+      "technology": "Dart/Flutter"
+    },
+    {
+      "id": 190,
+      "category": "codehex",
+      "question": "Which Flutter widget is commonly used for a screen structure with app bar and body?",
+      "image": null,
+      "correctAnswer": {
+        "text": "Scaffold",
+        "image": null
+      },
+      "dummyAnswers": [
+        {
+          "text": "CanvasOnly",
+          "image": null
+        },
+        {
+          "text": "Frame",
+          "image": null
+        },
+        {
+          "text": "PageRoot",
+          "image": null
+        }
+      ],
+      "enabled": true,
+      "yearLevel": 4,
+      "technology": "Dart/Flutter"
+    },
+    {
+      "id": 191,
+      "category": "codehex",
+      "question": "Which Flutter widget arranges children vertically?",
+      "image": null,
+      "correctAnswer": {
+        "text": "Column",
+        "image": null
+      },
+      "dummyAnswers": [
+        {
+          "text": "Row",
+          "image": null
+        },
+        {
+          "text": "Stack only",
+          "image": null
+        },
+        {
+          "text": "WrapHorizontal",
+          "image": null
+        }
+      ],
+      "enabled": true,
+      "yearLevel": 4,
+      "technology": "Dart/Flutter"
+    },
+    {
+      "id": 192,
+      "category": "codehex",
+      "question": "Which Flutter widget arranges children horizontally?",
+      "image": null,
+      "correctAnswer": {
+        "text": "Row",
+        "image": null
+      },
+      "dummyAnswers": [
+        {
+          "text": "Column",
+          "image": null
+        },
+        {
+          "text": "ListVerticalOnly",
+          "image": null
+        },
+        {
+          "text": "Scaffold",
+          "image": null
+        }
+      ],
+      "enabled": true,
+      "yearLevel": 4,
+      "technology": "Dart/Flutter"
+    },
+    {
+      "id": 193,
+      "category": "codehex",
+      "question": "What is setState() used for in a StatefulWidget's State object?",
+      "image": null,
+      "correctAnswer": {
+        "text": "Notify Flutter that state changed and the UI may need rebuilding",
+        "image": null
+      },
+      "dummyAnswers": [
+        {
+          "text": "Send SQL to the database",
+          "image": null
+        },
+        {
+          "text": "Restart the device",
+          "image": null
+        },
+        {
+          "text": "Create a new Dart package",
+          "image": null
+        }
+      ],
+      "enabled": true,
+      "yearLevel": 4,
+      "technology": "Dart/Flutter"
+    },
+    {
+      "id": 194,
+      "category": "codehex",
+      "question": "Which Dart type represents an asynchronous result that may complete later?",
+      "image": null,
+      "correctAnswer": {
+        "text": "Future",
+        "image": null
+      },
+      "dummyAnswers": [
+        {
+          "text": "Promise only",
+          "image": null
+        },
+        {
+          "text": "TaskResult",
+          "image": null
+        },
+        {
+          "text": "AsyncValueOnly",
+          "image": null
+        }
+      ],
+      "enabled": true,
+      "yearLevel": 4,
+      "technology": "Dart/Flutter"
+    },
+    {
+      "id": 195,
+      "category": "codehex",
+      "question": "Which data type normally represents true or false values?",
+      "image": null,
+      "correctAnswer": {
+        "text": "Boolean",
+        "image": null
+      },
+      "dummyAnswers": [
+        {
+          "text": "String",
+          "image": null
+        },
+        {
+          "text": "Array",
+          "image": null
+        },
+        {
+          "text": "Float only",
+          "image": null
+        }
+      ],
+      "enabled": true,
+      "yearLevel": 1
+    },
+    {
+      "id": 196,
+      "category": "codehex",
+      "question": "Which symbol starts a single-line comment in JavaScript?",
+      "image": null,
+      "correctAnswer": {
+        "text": "//",
+        "image": null
+      },
+      "dummyAnswers": [
+        {
+          "text": "##",
+          "image": null
+        },
+        {
+          "text": "<!--",
+          "image": null
+        },
+        {
+          "text": "**",
+          "image": null
+        }
+      ],
+      "enabled": true,
+      "yearLevel": 1
+    },
+    {
+      "id": 197,
+      "category": "codehex",
+      "question": "What is the main purpose of a loop in programming?",
+      "image": null,
+      "correctAnswer": {
+        "text": "Repeat a block of instructions",
+        "image": null
+      },
+      "dummyAnswers": [
+        {
+          "text": "Encrypt a database",
+          "image": null
+        },
+        {
+          "text": "Create a network cable",
+          "image": null
+        },
+        {
+          "text": "Resize an image",
+          "image": null
+        }
+      ],
+      "enabled": true,
+      "yearLevel": 1
+    },
+    {
+      "id": 198,
+      "category": "codehex",
+      "question": "Which SQL clause is used to filter rows returned by a SELECT query?",
+      "image": null,
+      "correctAnswer": {
+        "text": "WHERE",
+        "image": null
+      },
+      "dummyAnswers": [
+        {
+          "text": "ORDER",
+          "image": null
+        },
+        {
+          "text": "TABLE",
+          "image": null
+        },
+        {
+          "text": "COLUMN",
+          "image": null
+        }
+      ],
+      "enabled": true,
+      "yearLevel": 2
+    },
+    {
+      "id": 199,
+      "category": "codehex",
+      "question": "What does JSON primarily provide?",
+      "image": null,
+      "correctAnswer": {
+        "text": "A text format for structured data",
+        "image": null
+      },
+      "dummyAnswers": [
+        {
+          "text": "A video codec",
+          "image": null
+        },
+        {
+          "text": "A CPU instruction set",
+          "image": null
+        },
+        {
+          "text": "A network cable standard",
+          "image": null
+        }
+      ],
+      "enabled": true,
+      "yearLevel": 2
+    },
+    {
+      "id": 200,
+      "category": "codehex",
+      "question": "Which Git command downloads a repository for the first time?",
+      "image": null,
+      "correctAnswer": {
+        "text": "git clone",
+        "image": null
+      },
+      "dummyAnswers": [
+        {
+          "text": "git erase",
+          "image": null
+        },
+        {
+          "text": "git paint",
+          "image": null
+        },
+        {
+          "text": "git compile",
+          "image": null
+        }
+      ],
+      "enabled": true,
+      "yearLevel": 2
+    },
+    {
+      "id": 201,
+      "category": "codehex",
+      "question": "What is the average lookup complexity of a well-designed hash table?",
+      "image": null,
+      "correctAnswer": {
+        "text": "O(1)",
+        "image": null
+      },
+      "dummyAnswers": [
+        {
+          "text": "O(n!)",
+          "image": null
+        },
+        {
+          "text": "O(2^n)",
+          "image": null
+        },
+        {
+          "text": "O(n^3)",
+          "image": null
+        }
+      ],
+      "enabled": true,
+      "yearLevel": 3
+    },
+    {
+      "id": 202,
+      "category": "codehex",
+      "question": "Which HTTP status code commonly means Not Found?",
+      "image": null,
+      "correctAnswer": {
+        "text": "404",
+        "image": null
+      },
+      "dummyAnswers": [
+        {
+          "text": "200",
+          "image": null
+        },
+        {
+          "text": "301",
+          "image": null
+        },
+        {
+          "text": "500",
+          "image": null
+        }
+      ],
+      "enabled": true,
+      "yearLevel": 3
+    },
+    {
+      "id": 203,
+      "category": "codehex",
+      "question": "Why are prepared statements useful in database applications?",
+      "image": null,
+      "correctAnswer": {
+        "text": "They help prevent SQL injection",
+        "image": null
+      },
+      "dummyAnswers": [
+        {
+          "text": "They increase monitor brightness",
+          "image": null
+        },
+        {
+          "text": "They replace all indexes",
+          "image": null
+        },
+        {
+          "text": "They disable authentication",
+          "image": null
+        }
+      ],
+      "enabled": true,
+      "yearLevel": 3
+    },
+    {
+      "id": 204,
+      "category": "codehex",
+      "question": "What does ACID describe in relational databases?",
+      "image": null,
+      "correctAnswer": {
+        "text": "Transaction reliability properties",
+        "image": null
+      },
+      "dummyAnswers": [
+        {
+          "text": "A CSS layout method",
+          "image": null
+        },
+        {
+          "text": "A network connector",
+          "image": null
+        },
+        {
+          "text": "A video compression format",
+          "image": null
+        }
+      ],
+      "enabled": true,
+      "yearLevel": 4
+    },
+    {
+      "id": 205,
+      "category": "codehex",
+      "question": "Which principle recommends depending on abstractions rather than concrete implementations?",
+      "image": null,
+      "correctAnswer": {
+        "text": "Dependency Inversion Principle",
+        "image": null
+      },
+      "dummyAnswers": [
+        {
+          "text": "First Come First Served",
+          "image": null
+        },
+        {
+          "text": "Least Recently Used",
+          "image": null
+        },
+        {
+          "text": "Round Robin",
+          "image": null
+        }
+      ],
+      "enabled": true,
+      "yearLevel": 4
+    },
+    {
+      "id": 206,
+      "category": "codehex",
+      "question": "What is the purpose of a database index?",
+      "image": null,
+      "correctAnswer": {
+        "text": "Speed up selected data lookups",
+        "image": null
+      },
+      "dummyAnswers": [
+        {
+          "text": "Encrypt every row automatically",
+          "image": null
+        },
+        {
+          "text": "Replace backups",
+          "image": null
+        },
+        {
+          "text": "Remove primary keys",
+          "image": null
+        }
+      ],
+      "enabled": true,
+      "yearLevel": 4
+    },
+    {
+      "id": 207,
+      "category": "illustrados",
+      "question": "Which design principle helps create visual order by lining elements up consistently?",
+      "image": null,
+      "correctAnswer": {
+        "text": "Alignment",
+        "image": null
+      },
+      "dummyAnswers": [
+        {
+          "text": "Compression",
+          "image": null
+        },
+        {
+          "text": "Routing",
+          "image": null
+        },
+        {
+          "text": "Compilation",
+          "image": null
+        }
+      ],
+      "enabled": true,
+      "yearLevel": 1
+    },
+    {
+      "id": 208,
+      "category": "illustrados",
+      "question": "What does contrast help users do in a visual interface?",
+      "image": null,
+      "correctAnswer": {
+        "text": "Distinguish important elements",
+        "image": null
+      },
+      "dummyAnswers": [
+        {
+          "text": "Increase file size",
+          "image": null
+        },
+        {
+          "text": "Change IP addresses",
+          "image": null
+        },
+        {
+          "text": "Compile code",
+          "image": null
+        }
+      ],
+      "enabled": true,
+      "yearLevel": 1
+    },
+    {
+      "id": 209,
+      "category": "illustrados",
+      "question": "Which file format commonly supports transparent backgrounds for raster images?",
+      "image": null,
+      "correctAnswer": {
+        "text": "PNG",
+        "image": null
+      },
+      "dummyAnswers": [
+        {
+          "text": "TXT",
+          "image": null
+        },
+        {
+          "text": "CSV",
+          "image": null
+        },
+        {
+          "text": "WAV",
+          "image": null
+        }
+      ],
+      "enabled": true,
+      "yearLevel": 1
+    },
+    {
+      "id": 210,
+      "category": "illustrados",
+      "question": "In UI design, what is whitespace primarily used for?",
+      "image": null,
+      "correctAnswer": {
+        "text": "Improve clarity and grouping",
+        "image": null
+      },
+      "dummyAnswers": [
+        {
+          "text": "Store hidden passwords",
+          "image": null
+        },
+        {
+          "text": "Increase CPU speed",
+          "image": null
+        },
+        {
+          "text": "Replace navigation",
+          "image": null
+        }
+      ],
+      "enabled": true,
+      "yearLevel": 2
+    },
+    {
+      "id": 211,
+      "category": "illustrados",
+      "question": "Which color model is primarily used for screens?",
+      "image": null,
+      "correctAnswer": {
+        "text": "RGB",
+        "image": null
+      },
+      "dummyAnswers": [
+        {
+          "text": "CMYK only",
+          "image": null
+        },
+        {
+          "text": "ASCII",
+          "image": null
+        },
+        {
+          "text": "MIDI",
+          "image": null
+        }
+      ],
+      "enabled": true,
+      "yearLevel": 2
+    },
+    {
+      "id": 212,
+      "category": "illustrados",
+      "question": "What is the main goal of responsive design?",
+      "image": null,
+      "correctAnswer": {
+        "text": "Adapt layouts to different screen sizes",
+        "image": null
+      },
+      "dummyAnswers": [
+        {
+          "text": "Force all screens to one resolution",
+          "image": null
+        },
+        {
+          "text": "Disable mobile input",
+          "image": null
+        },
+        {
+          "text": "Remove typography",
+          "image": null
+        }
+      ],
+      "enabled": true,
+      "yearLevel": 3
+    },
+    {
+      "id": 213,
+      "category": "illustrados",
+      "question": "Which accessibility practice improves readability for text over backgrounds?",
+      "image": null,
+      "correctAnswer": {
+        "text": "Maintain sufficient color contrast",
+        "image": null
+      },
+      "dummyAnswers": [
+        {
+          "text": "Use very small text",
+          "image": null
+        },
+        {
+          "text": "Hide focus indicators",
+          "image": null
+        },
+        {
+          "text": "Rely on color alone",
+          "image": null
+        }
+      ],
+      "enabled": true,
+      "yearLevel": 3
+    },
+    {
+      "id": 214,
+      "category": "illustrados",
+      "question": "What is progressive disclosure in interface design?",
+      "image": null,
+      "correctAnswer": {
+        "text": "Show advanced details only when they are needed",
+        "image": null
+      },
+      "dummyAnswers": [
+        {
+          "text": "Display every control at once",
+          "image": null
+        },
+        {
+          "text": "Hide all navigation permanently",
+          "image": null
+        },
+        {
+          "text": "Disable user feedback",
+          "image": null
+        }
+      ],
+      "enabled": true,
+      "yearLevel": 4
+    },
+    {
+      "id": 215,
+      "category": "illustrados",
+      "question": "Why is consistent component behavior important in UX?",
+      "image": null,
+      "correctAnswer": {
+        "text": "It makes interactions predictable",
+        "image": null
+      },
+      "dummyAnswers": [
+        {
+          "text": "It increases random variation",
+          "image": null
+        },
+        {
+          "text": "It removes accessibility needs",
+          "image": null
+        },
+        {
+          "text": "It prevents responsive layouts",
+          "image": null
+        }
+      ],
+      "enabled": true,
+      "yearLevel": 4
+    },
+    {
+      "id": 216,
+      "category": "illustrados",
+      "question": "What does usability testing primarily evaluate?",
+      "image": null,
+      "correctAnswer": {
+        "text": "How real users complete tasks with a design",
+        "image": null
+      },
+      "dummyAnswers": [
+        {
+          "text": "Only server CPU temperature",
+          "image": null
+        },
+        {
+          "text": "Only image resolution",
+          "image": null
+        },
+        {
+          "text": "Only source-code line count",
+          "image": null
+        }
+      ],
+      "enabled": true,
+      "yearLevel": 4
+    },
+    {
+      "id": 217,
+      "category": "neo-tech",
+      "question": "Which component stores data temporarily while programs are running?",
+      "image": null,
+      "correctAnswer": {
+        "text": "RAM",
+        "image": null
+      },
+      "dummyAnswers": [
+        {
+          "text": "Power supply",
+          "image": null
+        },
+        {
+          "text": "Case fan",
+          "image": null
+        },
+        {
+          "text": "HDMI cable",
+          "image": null
+        }
+      ],
+      "enabled": true,
+      "yearLevel": 1
+    },
+    {
+      "id": 218,
+      "category": "neo-tech",
+      "question": "What is the main purpose of an operating system?",
+      "image": null,
+      "correctAnswer": {
+        "text": "Manage hardware and provide services to applications",
+        "image": null
+      },
+      "dummyAnswers": [
+        {
+          "text": "Replace the CPU",
+          "image": null
+        },
+        {
+          "text": "Act only as a web browser",
+          "image": null
+        },
+        {
+          "text": "Create Ethernet cables",
+          "image": null
+        }
+      ],
+      "enabled": true,
+      "yearLevel": 1
+    },
+    {
+      "id": 219,
+      "category": "neo-tech",
+      "question": "Which unit is commonly used to measure network data rate?",
+      "image": null,
+      "correctAnswer": {
+        "text": "bits per second",
+        "image": null
+      },
+      "dummyAnswers": [
+        {
+          "text": "pixels per inch",
+          "image": null
+        },
+        {
+          "text": "degrees Celsius",
+          "image": null
+        },
+        {
+          "text": "watts per hour",
+          "image": null
+        }
+      ],
+      "enabled": true,
+      "yearLevel": 1
+    },
+    {
+      "id": 220,
+      "category": "neo-tech",
+      "question": "Which command is commonly used to test basic reachability to another host?",
+      "image": null,
+      "correctAnswer": {
+        "text": "ping",
+        "image": null
+      },
+      "dummyAnswers": [
+        {
+          "text": "paint",
+          "image": null
+        },
+        {
+          "text": "mkdir only",
+          "image": null
+        },
+        {
+          "text": "format",
+          "image": null
+        }
+      ],
+      "enabled": true,
+      "yearLevel": 2
+    },
+    {
+      "id": 221,
+      "category": "neo-tech",
+      "question": "What does a subnet mask help determine?",
+      "image": null,
+      "correctAnswer": {
+        "text": "Which part of an IP address identifies the network",
+        "image": null
+      },
+      "dummyAnswers": [
+        {
+          "text": "Screen resolution",
+          "image": null
+        },
+        {
+          "text": "File extension",
+          "image": null
+        },
+        {
+          "text": "CPU clock multiplier",
+          "image": null
+        }
+      ],
+      "enabled": true,
+      "yearLevel": 2
+    },
+    {
+      "id": 222,
+      "category": "neo-tech",
+      "question": "Which storage device has no moving mechanical parts?",
+      "image": null,
+      "correctAnswer": {
+        "text": "SSD",
+        "image": null
+      },
+      "dummyAnswers": [
+        {
+          "text": "Traditional floppy disk",
+          "image": null
+        },
+        {
+          "text": "Optical mouse",
+          "image": null
+        },
+        {
+          "text": "Ethernet switch",
+          "image": null
+        }
+      ],
+      "enabled": true,
+      "yearLevel": 2
+    },
+    {
+      "id": 223,
+      "category": "neo-tech",
+      "question": "What is the purpose of NAT on many routers?",
+      "image": null,
+      "correctAnswer": {
+        "text": "Translate between private and public IP addressing",
+        "image": null
+      },
+      "dummyAnswers": [
+        {
+          "text": "Compress images",
+          "image": null
+        },
+        {
+          "text": "Compile programs",
+          "image": null
+        },
+        {
+          "text": "Format documents",
+          "image": null
+        }
+      ],
+      "enabled": true,
+      "yearLevel": 3
+    },
+    {
+      "id": 224,
+      "category": "neo-tech",
+      "question": "Which protocol securely provides remote command-line access?",
+      "image": null,
+      "correctAnswer": {
+        "text": "SSH",
+        "image": null
+      },
+      "dummyAnswers": [
+        {
+          "text": "HTTP",
+          "image": null
+        },
+        {
+          "text": "FTP without TLS",
+          "image": null
+        },
+        {
+          "text": "ARP",
+          "image": null
+        }
+      ],
+      "enabled": true,
+      "yearLevel": 3
+    },
+    {
+      "id": 225,
+      "category": "neo-tech",
+      "question": "What does RAID 1 primarily provide?",
+      "image": null,
+      "correctAnswer": {
+        "text": "Data mirroring",
+        "image": null
+      },
+      "dummyAnswers": [
+        {
+          "text": "Wireless encryption",
+          "image": null
+        },
+        {
+          "text": "CPU overclocking",
+          "image": null
+        },
+        {
+          "text": "Image compression",
+          "image": null
+        }
+      ],
+      "enabled": true,
+      "yearLevel": 3
+    },
+    {
+      "id": 226,
+      "category": "neo-tech",
+      "question": "What is VLAN segmentation used for?",
+      "image": null,
+      "correctAnswer": {
+        "text": "Logically separate network traffic on shared infrastructure",
+        "image": null
+      },
+      "dummyAnswers": [
+        {
+          "text": "Increase monitor resolution",
+          "image": null
+        },
+        {
+          "text": "Replace DNS",
+          "image": null
+        },
+        {
+          "text": "Compile firmware",
+          "image": null
+        }
+      ],
+      "enabled": true,
+      "yearLevel": 4
+    },
+    {
+      "id": 227,
+      "category": "neo-tech",
+      "question": "What does the principle of least privilege mean?",
+      "image": null,
+      "correctAnswer": {
+        "text": "Give only the access required for a task",
+        "image": null
+      },
+      "dummyAnswers": [
+        {
+          "text": "Give every user administrator access",
+          "image": null
+        },
+        {
+          "text": "Disable authentication",
+          "image": null
+        },
+        {
+          "text": "Share one password with everyone",
+          "image": null
+        }
+      ],
+      "enabled": true,
+      "yearLevel": 4
+    },
+    {
+      "id": 228,
+      "category": "neo-tech",
+      "question": "Why is network monitoring useful?",
+      "image": null,
+      "correctAnswer": {
+        "text": "It helps detect performance and security issues",
+        "image": null
+      },
+      "dummyAnswers": [
+        {
+          "text": "It guarantees zero failures",
+          "image": null
+        },
+        {
+          "text": "It replaces backups",
+          "image": null
+        },
+        {
+          "text": "It removes the need for updates",
+          "image": null
+        }
+      ],
+      "enabled": true,
+      "yearLevel": 4
+    },
+    {
+      "id": 229,
+      "category": "illustrados",
+      "question": "What is the purpose of a mood board in visual design?",
+      "image": null,
+      "correctAnswer": {
+        "text": "Collect visual references that communicate a desired style or direction",
+        "image": null
+      },
+      "dummyAnswers": [
+        {
+          "text": "Store application passwords",
+          "image": null
+        },
+        {
+          "text": "Measure network latency",
+          "image": null
+        },
+        {
+          "text": "Compile source code",
+          "image": null
+        }
+      ],
+      "enabled": true,
+      "yearLevel": 2
+    },
+    {
+      "id": 230,
+      "category": "illustrados",
+      "question": "What is a component library used for in interface design?",
+      "image": null,
+      "correctAnswer": {
+        "text": "Reuse consistent interface elements across screens and products",
+        "image": null
+      },
+      "dummyAnswers": [
+        {
+          "text": "Replace user research",
+          "image": null
+        },
+        {
+          "text": "Store database backups",
+          "image": null
+        },
+        {
+          "text": "Configure network routes",
+          "image": null
+        }
+      ],
+      "enabled": true,
+      "yearLevel": 3
+    }
+  ],
+  "loadingMessages": [
+    "Compiling your assessment profile…",
+    "Selecting a balanced set of questions…",
+    "Randomizing answer positions…",
+    "Mapping your strengths across AITS divisions…",
+    "Preparing your test environment…",
+    "Almost ready — your questions are being assembled."
+  ],
+  "focusMessages": [
+    "Hey, don't leave me — your timer is still running.",
+    "Your assessment is still active. Come back and finish strong.",
+    "AITS reminder: leaving the test does not pause the countdown.",
+    "Stay focused. Switching away from the assessment is recorded.",
+    "Finish what you started — your current question is waiting."
+  ],
+  "correctMessages": [
+    "Correct — nicely done.",
+    "Great work. You got it right.",
+    "Good answer. Keep the momentum.",
+    "That is correct. On to the next challenge."
+  ],
+  "wrongMessages": [
+    "Not quite. Use the correction and keep going.",
+    "Better luck on the next one.",
+    "That one missed the mark, but the next question is a fresh chance.",
+    "Incorrect this time. Keep moving forward."
+  ],
+  "timeoutMessages": [
+    "Are you still there?",
+    "Time ran out on this question.",
+    "That question timed out before an answer was recorded."
+  ]
+}

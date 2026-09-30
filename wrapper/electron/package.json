@@ -1,0 +1,60 @@
+{
+  "name": "aits-electron-wrapper",
+  "version": "1.0.0",
+  "private": true,
+  "main": "main.cjs",
+  "scripts": {
+    "postinstall": "electron-builder install-app-deps",
+    "sync:web": "node scripts/sync-web.mjs",
+    "start": "npm run sync:web && electron .",
+    "build:windows": "npm run sync:web && electron-builder --win nsis",
+    "build:linux": "npm run sync:web && electron-builder --linux AppImage",
+    "build:mac": "npm run sync:web && electron-builder --mac dmg"
+  },
+  "dependencies": {
+    "better-sqlite3": "^12.4.1",
+    "electron": "^38.2.1"
+  },
+  "devDependencies": {
+    "electron-builder": "^26.0.12"
+  },
+  "build": {
+    "appId": "dev.jpano.aits",
+    "productName": "AITS",
+    "asar": true,
+    "files": [
+      "main.cjs",
+      "preload.cjs",
+      "web/**/*",
+      "package.json"
+    ],
+    "extraMetadata": {
+      "main": "main.cjs"
+    },
+    "directories": {
+      "output": "../../client/public/downloads/electron-build"
+    },
+    "win": {
+      "target": [
+        "nsis"
+      ],
+      "artifactName": "AITS-Windows.${ext}"
+    },
+    "linux": {
+      "target": [
+        "AppImage"
+      ],
+      "artifactName": "AITS-Linux.${ext}"
+    },
+    "mac": {
+      "target": [
+        "dmg"
+      ],
+      "artifactName": "AITS-macOS.${ext}"
+    },
+    "nsis": {
+      "oneClick": false,
+      "allowToChangeInstallationDirectory": true
+    }
+  }
+}

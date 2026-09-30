@@ -1,0 +1,211 @@
+# ============================================================
+# AITS - Git ignore rules
+# Keep source/config templates in Git, exclude secrets,
+# generated builds, dependencies, local runtime data and caches.
+# ============================================================
+
+# ------------------------------------------------------------
+# Secrets / local environment
+# ------------------------------------------------------------
+.env
+.env.*
+!.env.example
+
+# Local/private credentials and certificates
+*.pem
+*.key
+*.crt
+*.cer
+*.p12
+*.pfx
+*.jks
+*.keystore
+
+# ------------------------------------------------------------
+# Node / Vite / TypeScript
+# ------------------------------------------------------------
+node_modules/
+**/node_modules/
+
+dist/
+**/dist/
+
+.vite/
+**/.vite/
+
+.cache/
+**/.cache/
+
+*.tsbuildinfo
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# ------------------------------------------------------------
+# Go
+# ------------------------------------------------------------
+*.test
+*.out
+coverage.out
+coverage/
+vendor/
+
+# Compiled Go/application binaries
+*.exe
+*.dll
+*.so
+*.dylib
+
+# ------------------------------------------------------------
+# Generated AITS compile/release output
+# ------------------------------------------------------------
+compiled/
+release/
+releases/
+
+systems/
+build/
+out/
+
+# Generated installable packages
+*.apk
+*.aab
+*.msi
+*.msix
+*.dmg
+*.pkg
+*.AppImage
+*.deb
+*.rpm
+
+# ------------------------------------------------------------
+# Electron
+# ------------------------------------------------------------
+wrapper/electron/node_modules/
+wrapper/electron/dist/
+wrapper/electron/out/
+wrapper/electron/build/
+wrapper/electron/release/
+
+# ------------------------------------------------------------
+# Capacitor / Android
+# Keep the native project source, ignore generated build data.
+# ------------------------------------------------------------
+wrapper/capacitor/node_modules/
+wrapper/capacitor/dist/
+wrapper/capacitor/.capacitor/
+
+wrapper/capacitor/android/.gradle/
+wrapper/capacitor/android/build/
+wrapper/capacitor/android/app/build/
+wrapper/capacitor/android/local.properties
+wrapper/capacitor/android/.idea/
+wrapper/capacitor/android/captures/
+
+# iOS generated/local files, if added later
+wrapper/capacitor/ios/App/Pods/
+wrapper/capacitor/ios/App/build/
+wrapper/capacitor/ios/App/DerivedData/
+wrapper/capacitor/ios/App/*.xcworkspace/xcuserdata/
+wrapper/capacitor/ios/App/*.xcodeproj/xcuserdata/
+
+# ------------------------------------------------------------
+# AITS runtime/user data
+# ------------------------------------------------------------
+
+# User-uploaded/private runtime content
+data/private/*
+!data/private/.gitkeep
+
+data/library/*
+!data/library/.gitkeep
+
+# Runtime logs / temp data
+data/logs/*
+!data/logs/.gitkeep
+
+# Keep database schema/migrations/seeds in Git,
+# but do not commit real PostgreSQL backups/dumps.
+data/database/*.backup
+data/database/*.dump
+data/database/*.bak
+data/database/*.tar
+data/database/*.gz
+data/database/*.zip
+
+# If a raw SQL dump is generated, ignore common dump names only.
+data/database/pg_dump*.sql
+data/database/*-dump.sql
+data/database/*_dump.sql
+
+# ------------------------------------------------------------
+# Logs / temp / runtime
+# ------------------------------------------------------------
+logs/
+tmp/
+temp/
+*.log
+*.tmp
+*.temp
+*.pid
+*.lock
+*.swp
+*.swo
+*~
+
+# ------------------------------------------------------------
+# Test / tooling output
+# ------------------------------------------------------------
+coverage/
+.nyc_output/
+playwright-report/
+test-results/
+
+# ------------------------------------------------------------
+# IDE / editor
+# ------------------------------------------------------------
+.vscode/
+.idea/
+*.code-workspace
+
+# ------------------------------------------------------------
+# OS-generated files
+# ------------------------------------------------------------
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+Thumbs.db
+Thumbs.db:encryptable
+Desktop.ini
+$RECYCLE.BIN/
+
+# ------------------------------------------------------------
+# Windows / shell leftovers
+# ------------------------------------------------------------
+*.lnk
+*.stackdump
+
+# ------------------------------------------------------------
+# Archive / packaging leftovers
+# ------------------------------------------------------------
+*.7z
+*.rar
+*.zip
+
+# ------------------------------------------------------------
+# Keep these important project files tracked
+# ------------------------------------------------------------
+!.env.example
+!run.bat
+!zip.bat
+!clean.bat
+!compile.bat
+!release.bat
+!data/database/SCHEMA.sql
+!data/database/schema.sql
+!data/database/*.migration.sql
+!data/database/migrations/**
+!data/database/seeds/**

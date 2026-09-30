@@ -1,0 +1,47 @@
+{{define "generic.html"}}<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="color-scheme" content="light dark">
+  <meta name="supported-color-schemes" content="light dark">
+  <title>{{.Title}}</title>
+  <style>
+    :root{color-scheme:light dark;supported-color-schemes:light dark}
+    body{margin:0;padding:0;background:#f5f2ed;color:#201d1a;font-family:Arial,Helvetica,sans-serif;-webkit-text-size-adjust:100%}
+    .preheader{display:none!important;max-height:0;max-width:0;overflow:hidden;opacity:0;color:transparent}
+    .page{width:100%;border-collapse:collapse;background:#f5f2ed}
+    .outer{padding:0}
+    .card{width:100%;max-width:620px;border-collapse:separate;border-spacing:0;background:#ffffff}
+    .brand{padding:20px;background:#751f18;color:#ffffff}
+    .brand-name{font-size:22px;line-height:1.15;font-weight:800;letter-spacing:.01em}
+    .brand-sub{margin-top:4px;font-size:13px;line-height:1.4;color:#f5ded8}
+    .content{padding:20px;color:#201d1a;font-size:15px;line-height:1.65}
+    .content h1{margin:0 0 14px;font-size:23px;line-height:1.2;color:#201d1a}
+    .content p{margin:0 0 16px;color:#625a53}
+    .detail{margin:18px 0;padding:15px;border:1px solid #e6ded4;border-radius:12px;background:#f9f6f1}
+    .detail-label{display:block;margin-bottom:4px;color:#8b7d70;font-size:11px;line-height:1.2;font-weight:700;text-transform:uppercase;letter-spacing:.08em}
+    .detail-value{display:block;color:#751f18;font-size:17px;line-height:1.35;font-weight:800;word-break:break-word}
+    .button{display:block;width:auto;margin:20px 0 4px;padding:13px 18px;border-radius:10px;background:#751f18;color:#ffffff!important;text-align:center;text-decoration:none;font-weight:800;line-height:1.25}
+    .footer{padding:16px 20px;border-top:1px solid #eee6dd;color:#766d65;font-size:12px;line-height:1.55}
+    @media(min-width:560px){.outer{padding:28px 16px}.card{border:1px solid #e6ded4;border-radius:18px;overflow:hidden}.brand{padding:24px 26px}.content{padding:26px}.footer{padding:17px 26px}.button{display:inline-block}}
+    @media(prefers-color-scheme:dark){body,.page{background:#111214!important;color:#eee8df!important}.card{background:#1a1c1f!important;border-color:#303237!important}.brand{background:#49201d!important}.brand-sub{color:#e8c9c3!important}.content,.content h1{color:#eee8df!important}.content p{color:#b9b1a8!important}.detail{background:#111214!important;border-color:#3a3c41!important}.detail-label,.footer{color:#aaa39a!important}.detail-value{color:#ffc554!important}.button{background:#9f3a2e!important;color:#ffffff!important}.footer{border-color:#303237!important}}
+  </style>
+</head>
+<body>
+  {{if .Preheader}}<div class="preheader">{{.Preheader}}</div>{{end}}
+  <table role="presentation" class="page" width="100%"><tr><td class="outer" align="center">
+    <table role="presentation" class="card" width="100%">
+      <tr><td class="brand"><div class="brand-name">AITS</div><div class="brand-sub">Alliance of Information Technology Students</div></td></tr>
+      <tr><td class="content">
+        <h1>{{.Title}}</h1>
+        {{if .Greeting}}<p>Hello {{.Greeting}},</p>{{end}}
+        {{if .Message}}<p style="white-space:pre-line">{{.Message}}</p>{{end}}
+        {{if .DetailValue}}<div class="detail"><span class="detail-label">{{.DetailLabel}}</span><span class="detail-value">{{.DetailValue}}</span></div>{{end}}
+        {{if .ActionURL}}<a class="button" href="{{.ActionURL}}">{{if .ActionLabel}}{{.ActionLabel}}{{else}}Open AITS{{end}}</a>{{end}}
+      </td></tr>
+      <tr><td class="footer">{{.Footer}}</td></tr>
+    </table>
+  </td></tr></table>
+</body>
+</html>{{end}}

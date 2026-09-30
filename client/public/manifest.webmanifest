@@ -1,0 +1,25 @@
+{
+  "id": "/",
+  "name": "AITS Community",
+  "short_name": "AITS",
+  "description": "Alliance of Information Technology Students community and membership platform.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "display_override": ["standalone"],
+  "background_color": "#fff8ed",
+  "theme_color": "#b56c00",
+  "icons": [
+    {
+      "src": "/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}

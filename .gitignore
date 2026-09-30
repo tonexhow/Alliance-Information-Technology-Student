@@ -1,0 +1,158 @@
+# AITS - Git ignore rules
+
+# Secrets / machine-local configuration
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.crt
+*.cer
+*.p12
+*.pfx
+*.jks
+*.keystore
+
+# Node / Vite / TypeScript
+node_modules/
+**/node_modules/
+dist/
+**/dist/
+.vite/
+**/.vite/
+.cache/
+**/.cache/
+*.tsbuildinfo
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Go generated output
+*.test
+*.out
+coverage.out
+coverage/
+*.exe
+*.dll
+*.so
+*.dylib
+
+# AITS generated compiler/release output
+compile/
+compiled/
+release/
+releases/
+build/
+out/
+
+# Native packages/installers
+*.apk
+*.aab
+*.ipa
+*.msi
+*.msix
+*.dmg
+*.pkg
+*.AppImage
+*.deb
+*.rpm
+
+# Electron generated files
+wrapper/electron/node_modules/
+wrapper/electron/dist/
+wrapper/electron/out/
+wrapper/electron/build/
+wrapper/electron/release/
+client/public/downloads/electron-build/
+
+# Capacitor / Android generated files
+wrapper/capacitor/node_modules/
+wrapper/capacitor/dist/
+wrapper/capacitor/www/
+wrapper/capacitor/.capacitor/
+wrapper/capacitor/android/.gradle/
+wrapper/capacitor/android/build/
+wrapper/capacitor/android/app/build/
+wrapper/capacitor/android/local.properties
+wrapper/capacitor/android/.idea/
+wrapper/capacitor/android/captures/
+
+# iOS generated/local files
+wrapper/capacitor/ios/App/Pods/
+wrapper/capacitor/ios/App/build/
+wrapper/capacitor/ios/App/DerivedData/
+wrapper/capacitor/ios/App/*.xcworkspace/xcuserdata/
+wrapper/capacitor/ios/App/*.xcodeproj/xcuserdata/
+
+# Runtime/private AITS content
+# Keep folders if .gitkeep exists, but never push user/private runtime files.
+data/private/*
+!data/private/.gitkeep
+data/library/*
+!data/library/.gitkeep
+data/logs/*
+!data/logs/.gitkeep
+
+# PostgreSQL backup/dump artifacts - schema/migration/seed SQL remains trackable.
+data/database/*.backup
+data/database/*.dump
+data/database/*.bak
+data/database/*.tar
+data/database/*.gz
+data/database/*.zip
+data/database/pg_dump*.sql
+data/database/*-dump.sql
+data/database/*_dump.sql
+
+# Logs / temp / test output
+logs/
+tmp/
+temp/
+*.log
+*.tmp
+*.temp
+*.pid
+*.lock
+*.swp
+*.swo
+*~
+.nyc_output/
+playwright-report/
+test-results/
+
+# IDE / OS
+.vscode/
+.idea/
+*.code-workspace
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+Thumbs.db
+Thumbs.db:encryptable
+Desktop.ini
+$RECYCLE.BIN/
+*.lnk
+*.stackdump
+
+# Packaging leftovers
+*.7z
+*.rar
+*.zip
+
+# Explicitly keep project-controlled files
+!.env.example
+!.gitignore
+!run.bat
+!zip.bat
+!clean.bat
+!compile.bat
+!release.bat
+!gitpush.bat
+!README.md
+!data/database/SCHEMA.sql
+!data/database/schema.sql
+!data/database/*.migration.sql
+!data/database/migrations/**
+!data/database/seeds/**
